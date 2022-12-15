@@ -1,0 +1,1320 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+external-controller: :9090
+proxies:
+  - {name: "[VMess] youtube@资源分享师_undefined_108", server: 190.93.245.3, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_113", server: 141.101.115.32, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_129", server: 141.101.114.32, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_141", server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxpol2.fovi.tk}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_148", server: 141.101.115.134, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_150", server: speed.cloudflare.com, port: 443, type: vmess, uuid: 6b00bdb7-0811-421f-9bba-3301b3025d57, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: scenario-dot-hu-optimum.trycloudflare.com}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_154", server: 190.93.244.200, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_158", server: 190.93.246.3, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_164", server: surongwei.eu.org, port: 443, type: vmess, uuid: 6093eefb-7ab6-41df-aba0-d5fa58147e10, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /reffs7y26g0ua, headers: {Host: surongwei.eu.org}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_165", server: 198.41.212.123, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_166", server: 190.93.244.4, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_170", server: 190.93.246.4, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_173", server: 141.101.115.30, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_183", server: v2ray.wefuckgfw.ga, port: 2053, type: vmess, uuid: 8947fbe5-c1c7-4716-8564-2092ce776f92, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /DQsafRJn/, headers: {Host: v2ray.wefuckgfw.ga}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_187", server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxusovz2.fovi.tk}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_189", server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxusovz3.fovi.tk}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_191", server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxusovz1.fovi.tk}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_192", server: 190.93.245.170, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_197", server: 104.18.90.64, port: 2086, type: vmess, uuid: e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /aries, headers: {Host: azstu.cloudflare.quest}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_201", server: 141.101.114.31, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_202", server: 104.18.43.79, port: 2086, type: vmess, uuid: e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /aries, headers: {Host: azstu.cloudflare.quest}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_203", server: 104.19.33.1, port: 2086, type: vmess, uuid: e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /aries, headers: {Host: azstu.cloudflare.quest}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_205", server: 190.93.244.74, port: 2086, type: vmess, uuid: e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /aries, headers: {Host: azstu.cloudflare.quest}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_208", server: 104.18.38.195, port: 2086, type: vmess, uuid: e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /aries, headers: {Host: azstu.cloudflare.quest}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_212", server: 198.41.203.6, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_219", server: 104.18.194.137, port: 2086, type: vmess, uuid: e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /aries, headers: {Host: azstu.cloudflare.quest}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_221", server: 141.101.115.100, port: 443, type: vmess, uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /VHONOFZ3, headers: {Host: lg1.cfcdn2.xyz}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_226", server: 198.41.212.100, port: 443, type: vmess, uuid: 33aa57df-1c93-4318-9fce-e850437ee781, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: lg1.cfcdn3.xyz}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_227", server: 162.159.160.104, port: 8080, type: vmess, uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v6nt.gongyiyun.cf}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_230", server: 104.18.168.189, port: 2086, type: vmess, uuid: e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /aries, headers: {Host: azstu.cloudflare.quest}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_242", server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxpol.fovi.tk}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_247", server: surongwei.eu.org, port: 443, type: vmess, uuid: 6093eefb-7ab6-41df-aba0-d5fa58147e10, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /reffs7y26g0ua, headers: {Host: surongwei.eu.org}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_258", server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxfra.fovi.tk}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_259", server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxuk.fovi.tk}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_262", server: 162.159.129.202, port: 2086, type: vmess, uuid: e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /aries, headers: {Host: azstu.cloudflare.quest}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_266", server: 104.22.25.131, port: 80, type: vmess, uuid: 781be00e-1e09-4e27-a464-e14197418c8f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: id5.v2rayserv.com}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_33", server: 141.101.114.30, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_37", server: fbi.gov, port: 2086, type: vmess, uuid: 929029a5-9d88-4e2f-ee35-918fea716b77, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@heinuhome, headers: {Host: heinuhome-gcore-singapore.heinu.cf}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_43", server: 190.93.244.3, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_50", server: 190.93.245.2, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_51", server: v2ray.wefuckgfw.ga, port: 2053, type: vmess, uuid: ab323ed9-dda5-4feb-9f17-c77c7fd811b6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /DQsafRJn/, headers: {Host: v2ray.wefuckgfw.ga}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_73", server: 141.101.114.134, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_87", server: 190.93.245.4, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_undefined_92", server: 190.93.246.2, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_伯利兹_103", server: 203.30.191.191, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_伯利兹_115", server: 203.30.190.192, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_伯利兹_116", server: 203.30.188.190, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_伯利兹_117", server: 203.30.191.192, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_伯利兹_185", server: 203.30.188.120, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_伯利兹_28", server: 203.30.189.190, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_伯利兹_31", server: 203.30.188.188, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_伯利兹_35", server: 203.30.190.190, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_伯利兹_38", server: 203.30.190.191, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_伯利兹_47", server: 203.30.189.189, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_伯利兹_98", server: 203.30.191.193, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}, udp: true}
+  - {name: "[VMess] youtube@资源分享师_伯利兹_99", server: 203.30.188.189, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}, udp: true}
+  - {name: "[Trojan] 🇦🇺 youtube@资源分享师_澳大利亚_143", server: aus-sa-1.fuckjdieng.uk, port: 50334, type: trojan, password: 5c867b1f-0143-4f37-adf3-2b61a87727e9, sni: aus-sa-1.fuckjdieng.uk, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇦🇺 youtube@资源分享师_澳大利亚_146", server: aus-sa-2.fuckjdieng.uk, port: 50264, type: trojan, password: 69714733-b9ce-4f59-a1a7-db9b7a129d32, sni: aus-sa-2.fuckjdieng.uk, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇨🇦 youtube@资源分享师_加拿大_111", server: 23.227.38.38, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}, udp: true}
+  - {name: "[VMess] 🇨🇦 youtube@资源分享师_加拿大_59", server: 23.227.38.40, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}, udp: true}
+  - {name: "[Trojan] 🇨🇳 youtube@资源分享师_中国_17", server: updates.sub-nthu.com, port: 35002, type: trojan, password: 239dd177-86d8-4752-b311-054668080798, sni: updates.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇨🇳 youtube@资源分享师_中国_241", server: 106.75.218.112, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
+  - {name: "[VMess] 🇨🇳 youtube@资源分享师_中国_253", server: data-hk-v1.heisey.cn, port: 50205, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tv.cctv.com}}, udp: true}
+  - {name: "[VMess] 🇨🇳 youtube@资源分享师_中国_265", server: dog-moble.gatknqh.cn, port: 21029, type: vmess, uuid: da7d811a-5647-3b2e-bec3-6ee490e34c96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇨🇳 youtube@资源分享师_中国_268", server: jp08a.roc-taiwan.org.ua, port: 65018, type: trojan, password: 96983eb4-c8f1-316e-ab00-500014ed3d8b, sni: jp08a.roc-taiwan.org.ua, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇨🇾 youtube@资源分享师_塞浦路斯_102", server: 203.24.108.9, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}, udp: true}
+  - {name: "[VMess] 🇨🇾 youtube@资源分享师_塞浦路斯_114", server: 203.24.108.8, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}, udp: true}
+  - {name: "[VMess] 🇨🇾 youtube@资源分享师_塞浦路斯_128", server: 203.24.108.10, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}, udp: true}
+  - {name: "[VMess] 🇫🇮 youtube@资源分享师_芬兰_188", server: 135.181.205.199, port: 80, type: vmess, uuid: 2aac77de-b3e4-4017-845c-ca1380f2e8d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /telegram-id-@privatevpns, headers: {Host: 135.181.205.199}}, udp: true}
+  - {name: "[Trojan] 🇫🇷 youtube@资源分享师_法国_100", server: fr-par-2.fuckjdieng.uk, port: 50022, type: trojan, password: d6812956-680b-4eed-aff6-f4f7688ea25b, sni: fr-par-2.fuckjdieng.uk, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇫🇷 youtube@资源分享师_法国_194", server: fr-par-1.fnhffffe4.cc, port: 50394, type: trojan, password: 0971b06f-f845-4616-baab-9cfb77dbc5b1, sni: fr-par-1.fnhffffe4.cc, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇭🇰 youtube@资源分享师_香港_1", server: 20.239.94.179, port: 443, type: trojan, password: 1861be23-5020-467f-81f8-4de2f53b2745, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇭🇰 youtube@资源分享师_香港_101", server: cn-hk-34.fnhffffe4.cc, port: 50300, type: trojan, password: 4296b783-18c5-4dcc-97e5-caf5f39039c3, sni: cn-hk-34.fnhffffe4.cc, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇭🇰 youtube@资源分享师_香港_11", server: dl-hk3.efyunpan.com, port: 443, type: trojan, password: 1861be23-5020-467f-81f8-4de2f53b2745, sni: dl-hk3.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇭🇰 youtube@资源分享师_香港_14", server: dl-hk4.efyunpan.com, port: 443, type: trojan, password: 1861be23-5020-467f-81f8-4de2f53b2745, sni: dl-hk4.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇭🇰 youtube@资源分享师_香港_144", server: core2.efyunpan.com, port: 443, type: trojan, password: 1861be23-5020-467f-81f8-4de2f53b2745, sni: core2.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇭🇰 youtube@资源分享师_香港_2", server: 20.239.165.34, port: 443, type: trojan, password: 1861be23-5020-467f-81f8-4de2f53b2745, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇭🇰 youtube@资源分享师_香港_20", server: dl-tw1.efyunpan.com, port: 443, type: trojan, password: 1861be23-5020-467f-81f8-4de2f53b2745, sni: dl-tw1.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇭🇰 youtube@资源分享师_香港_235", server: 219.76.13.180, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
+  - {name: "[Trojan] 🇭🇰 youtube@资源分享师_香港_264", server: dl-hk5.efyunpan.com, port: 443, type: trojan, password: 1861be23-5020-467f-81f8-4de2f53b2745, sni: dl-hk5.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇭🇰 youtube@资源分享师_香港_274", server: core1.efyunpan.com, port: 443, type: trojan, password: 1861be23-5020-467f-81f8-4de2f53b2745, sni: core1.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇭🇰 youtube@资源分享师_香港_4", server: dl-hk1.efyunpan.com, port: 443, type: trojan, password: 1861be23-5020-467f-81f8-4de2f53b2745, sni: dl-hk1.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇭🇰 youtube@资源分享师_香港_53", server: 20.239.198.103, port: 443, type: trojan, password: 1861be23-5020-467f-81f8-4de2f53b2745, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇭🇰 youtube@资源分享师_香港_56", server: hk80.sanfen001.pics, port: 80, type: vmess, uuid: e30fa02c-d604-4191-9b81-c550b32f82bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/download, headers: {Host: a.189.cn}}, udp: true}
+  - {name: "[Trojan] 🇭🇰 youtube@资源分享师_香港_7", server: dl-hk2.efyunpan.com, port: 443, type: trojan, password: 1861be23-5020-467f-81f8-4de2f53b2745, sni: dl-hk2.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇭🇰 youtube@资源分享师_香港_9", server: b.xg.hk.cat77.cloud, port: 1845, type: trojan, password: cd27884b-c5af-34ec-b75f-8248077818fe, sni: b.xg.hk.cat77.cloud, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇭🇰 youtube@资源分享师_香港_95", server: dl-tw2.efyunpan.com, port: 443, type: trojan, password: 1861be23-5020-467f-81f8-4de2f53b2745, sni: dl-tw2.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇮🇷 youtube@资源分享师_伊朗_269", server: 94.101.181.171, port: 80, type: vmess, uuid: 0d49958b-5d9a-4755-9353-f3c4567195f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 94.101.181.171}}, udp: true}
+  - {name: "[Trojan] 🇯🇵 youtube@资源分享师_日本_13", server: dl-jp2.efyunpan.com, port: 443, type: trojan, password: 1861be23-5020-467f-81f8-4de2f53b2745, sni: dl-jp2.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇯🇵 youtube@资源分享师_日本_18", server: dl-kr1.efyunpan.com, port: 443, type: trojan, password: 1861be23-5020-467f-81f8-4de2f53b2745, sni: dl-kr1.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇯🇵 youtube@资源分享师_日本_181", server: dl-jp3.efyunpan.com, port: 443, type: trojan, password: 1861be23-5020-467f-81f8-4de2f53b2745, sni: dl-jp3.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇯🇵 youtube@资源分享师_日本_182", server: dl-us4.efyunpan.com, port: 443, type: trojan, password: 1861be23-5020-467f-81f8-4de2f53b2745, sni: dl-us4.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇯🇵 youtube@资源分享师_日本_21", server: 212.50.254.45, port: 13178, type: vmess, uuid: 35b5c770-eab0-4fa7-858c-60aee9e47953, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇯🇵 youtube@资源分享师_日本_22", server: jp-tk-1.hyperlinkvpn.xyz, port: 50484, type: trojan, password: d081d587-dd30-455c-96c8-b244d264b0a6, sni: jp-tk-1.hyperlinkvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇯🇵 youtube@资源分享师_日本_23", server: dl-kr2.efyunpan.com, port: 443, type: trojan, password: 1861be23-5020-467f-81f8-4de2f53b2745, sni: dl-kr2.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇯🇵 youtube@资源分享师_日本_30", server: dl-tw3.efyunpan.com, port: 443, type: trojan, password: 1861be23-5020-467f-81f8-4de2f53b2745, sni: dl-tw3.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇯🇵 youtube@资源分享师_日本_34", server: dl-us2.efyunpan.com, port: 443, type: trojan, password: 1861be23-5020-467f-81f8-4de2f53b2745, sni: dl-us2.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇯🇵 youtube@资源分享师_日本_5", server: dl-jp1.efyunpan.com, port: 443, type: trojan, password: 1861be23-5020-467f-81f8-4de2f53b2745, sni: dl-jp1.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇯🇵 youtube@资源分享师_日本_55", server: dl-us3.efyunpan.com, port: 443, type: trojan, password: 1861be23-5020-467f-81f8-4de2f53b2745, sni: dl-us3.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇯🇵 youtube@资源分享师_日本_58", server: dl-am1.efyunpan.com, port: 443, type: trojan, password: 1861be23-5020-467f-81f8-4de2f53b2745, sni: dl-am1.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇯🇵 youtube@资源分享师_日本_6", server: dl-jp4.efyunpan.com, port: 443, type: trojan, password: 1861be23-5020-467f-81f8-4de2f53b2745, sni: dl-jp4.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇯🇵 youtube@资源分享师_日本_8", server: dl-tw4.efyunpan.com, port: 443, type: trojan, password: 1861be23-5020-467f-81f8-4de2f53b2745, sni: dl-tw4.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇯🇵 youtube@资源分享师_日本_81", server: dl-am2.efyunpan.com, port: 443, type: trojan, password: 1861be23-5020-467f-81f8-4de2f53b2745, sni: dl-am2.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇯🇵 youtube@资源分享师_日本_89", server: dl-us1.efyunpan.com, port: 443, type: trojan, password: 1861be23-5020-467f-81f8-4de2f53b2745, sni: dl-us1.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇰🇷 youtube@资源分享师_韩国_257", server: 152.69.230.170, port: 80, type: vmess, uuid: 6aa24ded-5f15-48c7-8cba-3e2a159d6b77, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 152.69.230.170}}, udp: true}
+  - {name: "[Trojan] 🇲🇴 youtube@资源分享师_澳门_210", server: 45.64.22.55, port: 443, type: trojan, password: ZDAAFTxBNu5j9pl3Re834a3xSXwOZYeIlE30Dp86qc7yYgKaDCaROCSSnz2FCy, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇲🇴 youtube@资源分享师_澳门_29", server: 45.64.22.55, port: 443, type: trojan, password: KLF0qOU0ZZGw5Tnu, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇳🇱 youtube@资源分享师_荷兰_88", server: 188.114.99.11, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}, udp: true}
+  - {name: "[VMess] 🇳🇱 youtube@资源分享师_荷兰_96", server: 188.114.99.9, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}, udp: true}
+  - {name: "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_10", server: dl-sg2.efyunpan.com, port: 443, type: trojan, password: 1861be23-5020-467f-81f8-4de2f53b2745, sni: dl-sg2.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_12", server: dl-sg4.efyunpan.com, port: 443, type: trojan, password: 1861be23-5020-467f-81f8-4de2f53b2745, sni: dl-sg4.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_15", server: dl-eu1.efyunpan.com, port: 443, type: trojan, password: 1861be23-5020-467f-81f8-4de2f53b2745, sni: dl-eu1.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_151", server: sgp-2.fuckjdieng.uk, port: 50118, type: trojan, password: d7fa1e42-2dcc-46af-9260-e53e3191b5c1, sni: sgp-2.fuckjdieng.uk, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_16", server: dl-eu2.efyunpan.com, port: 443, type: trojan, password: 1861be23-5020-467f-81f8-4de2f53b2745, sni: dl-eu2.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: "[SS] 🇸🇬 youtube@资源分享师_新加坡_175", server: sg.securevpn.cc, port: 1020, type: ss, cipher: aes-128-gcm, password: !!str 202212000000000000000020, udp: true}
+  - {name: "[VMess] 🇸🇬 youtube@资源分享师_新加坡_178", server: singapore1.csadata4g.me, port: 80, type: vmess, uuid: 8a678b26-e4c1-4fe0-b0a4-ec36e3f41996, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /csadata4g.me, headers: {Host: v9-vn.tiktokcdn.com}}, udp: true}
+  - {name: "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_19", server: dl-sg3.efyunpan.com, port: 443, type: trojan, password: 1861be23-5020-467f-81f8-4de2f53b2745, sni: dl-sg3.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_199", server: sgp-1.fuckjdieng.uk, port: 50430, type: trojan, password: 9942d0af-9f57-4b86-9baf-9248b91edb2e, sni: sgp-1.fuckjdieng.uk, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_267", server: 20.212.35.155, port: 443, type: trojan, password: 1861be23-5020-467f-81f8-4de2f53b2745, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_77", server: dl-sg1.efyunpan.com, port: 443, type: trojan, password: 1861be23-5020-467f-81f8-4de2f53b2745, sni: dl-sg1.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇺🇸 youtube@资源分享师_亚美尼亚_119", server: 185.162.228.230, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}, udp: true}
+  - {name: "[VMess] 🇺🇸 youtube@资源分享师_亚美尼亚_36", server: 185.162.228.229, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}, udp: true}
+  - {name: "[VMess] 🇺🇸 youtube@资源分享师_亚美尼亚_65", server: 185.162.228.229, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}, udp: true}
+  - {name: "[VMess] 🇺🇸 youtube@资源分享师_亚美尼亚_76", server: 185.162.228.228, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}, udp: true}
+  - {name: "[VMess] 🇺🇸 youtube@资源分享师_美国_106", server: 66.235.200.22, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}, udp: true}
+  - {name: "[VMess] 🇺🇸 youtube@资源分享师_美国_107", server: amshare.jingledev.me, port: 443, type: vmess, uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /pkhhvws, headers: {Host: amshare.jingledev.me}}, udp: true}
+  - {name: "[VMess] 🇺🇸 youtube@资源分享师_美国_112", server: "[2607:f130:0:103::72f9:6485]", port: 65512, type: vmess, uuid: 941dc916-cabb-40a0-cb33-9f9b22c6b796, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇺🇸 youtube@资源分享师_美国_120", server: 2607:f130:0:103::72f9:6485, port: 65002, type: vmess, uuid: f89e6e0b-c993-4390-a410-5755fdc83858, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇺🇸 youtube@资源分享师_美国_122", server: king2.mmadserr.ml, port: 2095, type: vmess, uuid: dabdbbec-f774-41ff-a296-18026f469a97, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fhf5hfth565fhtf, headers: {Host: king2.mmadserr.ml}}, udp: true}
+  - {name: "[VMess] 🇺🇸 youtube@资源分享师_美国_123", server: 2607:f130:0:103::72f9:6485, port: 65512, type: vmess, uuid: 941dc916-cabb-40a0-cb33-9f9b22c6b796, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇺🇸 youtube@资源分享师_美国_157", server: els200.jslist.tk, port: 8443, type: vmess, uuid: e30cfa80-bc2c-43df-e808-97876aee77e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wo.php, headers: {Host: els200.jslist.tk}}, udp: true}
+  - {name: "[VMess] 🇺🇸 youtube@资源分享师_美国_169", server: uicdn.cf, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/fdfadsfa/63848bfe228fd/, headers: {Host: us-lb.sshkit.org}}, udp: true}
+  - {name: "[VMess] 🇺🇸 youtube@资源分享师_美国_171", server: 64.64.232.64, port: 13178, type: vmess, uuid: 35b5c770-eab0-4fa7-858c-60aee9e47953, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇺🇸 youtube@资源分享师_美国_172", server: racknerd.com, port: 2086, type: vmess, uuid: e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /aries, headers: {Host: azstu.cloudflare.quest}}, udp: true}
+  - {name: "[Trojan] 🇺🇸 youtube@资源分享师_美国_186", server: zzus01.fuqiangren.com, port: 20220, type: trojan, password: a1e61bf8-30d7-42a5-a5d0-21acae303b15, sni: zzus01.fuqiangren.com, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇺🇸 youtube@资源分享师_美国_196", server: 103.21.244.160, port: 2086, type: vmess, uuid: e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /aries, headers: {Host: azstu.cloudflare.quest}}, udp: true}
+  - {name: "[VMess] 🇺🇸 youtube@资源分享师_美国_206", server: main.millionaireaisle.com, port: 2053, type: vmess, uuid: ce02a636-88ac-4c29-963d-e09961ec3b3d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /DQsafRJn/, headers: {Host: v2ray.wefuckgfw.ga}}, udp: true}
+  - {name: "[VMess] 🇺🇸 youtube@资源分享师_美国_213", server: news.microsoft.com, port: 443, type: vmess, uuid: 33aa57df-1c93-4318-9fce-e850437ee781, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: lg1.cfcdn3.xyz}}, udp: true}
+  - {name: "[VMess] 🇺🇸 youtube@资源分享师_美国_233", server: stock.hostmonit.com, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sg-ovh.sharecentre.online}}, udp: true}
+  - {name: "[VMess] 🇺🇸 youtube@资源分享师_美国_234", server: 64.32.13.37, port: 443, type: vmess, uuid: 4dc574eb-94e8-439e-aad6-4d74df1a38c5, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/243535322906, headers: {Host: www.20876716.xyz}}, udp: true}
+  - {name: "[VMess] 🇺🇸 youtube@资源分享师_美国_251", server: 5.161.131.154, port: 58637, type: vmess, uuid: e741be25-c051-4009-bc12-060ddb41f6cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 5.161.131.154}}, udp: true}
+  - {name: "[VMess] 🇺🇸 youtube@资源分享师_美国_41", server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: jp.sharecentre.online}}, udp: true}
+  - {name: "[Trojan] 🇺🇸 youtube@资源分享师_美国_46", server: us-la-39.fnhffffe4.cc, port: 50332, type: trojan, password: 9f4f9309-43ff-4717-baf1-ab4f5c3db3bd, sni: us-la-39.fnhffffe4.cc, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇺🇸 youtube@资源分享师_美国_49", server: king6.workingoogle.ga, port: 8880, type: vmess, uuid: 050624ec-ba6a-49c3-e8d9-c46e5c167be0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fh454hg4fthfh, headers: {Host: king6.workingoogle.ga}}, udp: true}
+  - {name: "[VMess] 🇺🇸 youtube@资源分享师_美国_54", server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk.sharecentre.online}}, udp: true}
+  - {name: "[Trojan] 🇺🇸 youtube@资源分享师_美国_57", server: us-la-38.fnhffffe4.cc, port: 50230, type: trojan, password: 6867bb74-ec61-4d0d-9198-8b13c64d1701, sni: us-la-38.fnhffffe4.cc, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇺🇸 youtube@资源分享师_美国_61", server: 199.180.115.212, port: 7093, type: vmess, uuid: b4ffade9-f463-47fd-8d53-3dee307d9d71, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇺🇸 youtube@资源分享师_美国_74", server: 66.235.200.21, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}, udp: true}
+  - {name: "[VMess] 🇺🇸 youtube@资源分享师_美国_79", server: 74.211.105.99, port: 13178, type: vmess, uuid: 35b5c770-eab0-4fa7-858c-60aee9e47953, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇺🇸 youtube@资源分享师_美国_83", server: 2602:fe90:1:1::ca89:e56, port: 65501, type: vmess, uuid: d62197b3-175f-4825-a2fd-ddd863f35753, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇺🇸 youtube@资源分享师_美国_84", server: 216.24.184.195, port: 8306, type: vmess, uuid: 0cd68213-f603-4389-8d7d-b6ae2d69403b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇺🇸 youtube@资源分享师_美国_94", server: king2.mmadserr.ml, port: 2095, type: vmess, uuid: dabdbbec-f774-41ff-a296-18026f469a97, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fhf5hfth565fhtf, headers: {Host: king2.mmadserr.ml}}, udp: true}
+  - {name: "[VMess] 🇻🇳 youtube@资源分享师_越南_211", server: csavietnam3.csadata4g.me, port: 80, type: vmess, uuid: 8a678b26-e4c1-4fe0-b0a4-ec36e3f41996, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /csadata4g.me, headers: {Host: csavietnam3.csadata4g.me}}, udp: true}
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🔯 故障转移
+      - 🔮 负载均衡
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 🚀 手动切换
+    type: select
+    proxies:
+      - "[VMess] youtube@资源分享师_undefined_108"
+      - "[VMess] youtube@资源分享师_undefined_113"
+      - "[VMess] youtube@资源分享师_undefined_129"
+      - "[VMess] youtube@资源分享师_undefined_141"
+      - "[VMess] youtube@资源分享师_undefined_148"
+      - "[VMess] youtube@资源分享师_undefined_150"
+      - "[VMess] youtube@资源分享师_undefined_154"
+      - "[VMess] youtube@资源分享师_undefined_158"
+      - "[VMess] youtube@资源分享师_undefined_164"
+      - "[VMess] youtube@资源分享师_undefined_165"
+      - "[VMess] youtube@资源分享师_undefined_166"
+      - "[VMess] youtube@资源分享师_undefined_170"
+      - "[VMess] youtube@资源分享师_undefined_173"
+      - "[VMess] youtube@资源分享师_undefined_183"
+      - "[VMess] youtube@资源分享师_undefined_187"
+      - "[VMess] youtube@资源分享师_undefined_189"
+      - "[VMess] youtube@资源分享师_undefined_191"
+      - "[VMess] youtube@资源分享师_undefined_192"
+      - "[VMess] youtube@资源分享师_undefined_197"
+      - "[VMess] youtube@资源分享师_undefined_201"
+      - "[VMess] youtube@资源分享师_undefined_202"
+      - "[VMess] youtube@资源分享师_undefined_203"
+      - "[VMess] youtube@资源分享师_undefined_205"
+      - "[VMess] youtube@资源分享师_undefined_208"
+      - "[VMess] youtube@资源分享师_undefined_212"
+      - "[VMess] youtube@资源分享师_undefined_219"
+      - "[VMess] youtube@资源分享师_undefined_221"
+      - "[VMess] youtube@资源分享师_undefined_226"
+      - "[VMess] youtube@资源分享师_undefined_227"
+      - "[VMess] youtube@资源分享师_undefined_230"
+      - "[VMess] youtube@资源分享师_undefined_242"
+      - "[VMess] youtube@资源分享师_undefined_247"
+      - "[VMess] youtube@资源分享师_undefined_258"
+      - "[VMess] youtube@资源分享师_undefined_259"
+      - "[VMess] youtube@资源分享师_undefined_262"
+      - "[VMess] youtube@资源分享师_undefined_266"
+      - "[VMess] youtube@资源分享师_undefined_33"
+      - "[VMess] youtube@资源分享师_undefined_37"
+      - "[VMess] youtube@资源分享师_undefined_43"
+      - "[VMess] youtube@资源分享师_undefined_50"
+      - "[VMess] youtube@资源分享师_undefined_51"
+      - "[VMess] youtube@资源分享师_undefined_73"
+      - "[VMess] youtube@资源分享师_undefined_87"
+      - "[VMess] youtube@资源分享师_undefined_92"
+      - "[VMess] youtube@资源分享师_伯利兹_103"
+      - "[VMess] youtube@资源分享师_伯利兹_115"
+      - "[VMess] youtube@资源分享师_伯利兹_116"
+      - "[VMess] youtube@资源分享师_伯利兹_117"
+      - "[VMess] youtube@资源分享师_伯利兹_185"
+      - "[VMess] youtube@资源分享师_伯利兹_28"
+      - "[VMess] youtube@资源分享师_伯利兹_31"
+      - "[VMess] youtube@资源分享师_伯利兹_35"
+      - "[VMess] youtube@资源分享师_伯利兹_38"
+      - "[VMess] youtube@资源分享师_伯利兹_47"
+      - "[VMess] youtube@资源分享师_伯利兹_98"
+      - "[VMess] youtube@资源分享师_伯利兹_99"
+      - "[Trojan] 🇦🇺 youtube@资源分享师_澳大利亚_143"
+      - "[Trojan] 🇦🇺 youtube@资源分享师_澳大利亚_146"
+      - "[VMess] 🇨🇦 youtube@资源分享师_加拿大_111"
+      - "[VMess] 🇨🇦 youtube@资源分享师_加拿大_59"
+      - "[Trojan] 🇨🇳 youtube@资源分享师_中国_17"
+      - "[VMess] 🇨🇳 youtube@资源分享师_中国_241"
+      - "[VMess] 🇨🇳 youtube@资源分享师_中国_253"
+      - "[VMess] 🇨🇳 youtube@资源分享师_中国_265"
+      - "[Trojan] 🇨🇳 youtube@资源分享师_中国_268"
+      - "[VMess] 🇨🇾 youtube@资源分享师_塞浦路斯_102"
+      - "[VMess] 🇨🇾 youtube@资源分享师_塞浦路斯_114"
+      - "[VMess] 🇨🇾 youtube@资源分享师_塞浦路斯_128"
+      - "[VMess] 🇫🇮 youtube@资源分享师_芬兰_188"
+      - "[Trojan] 🇫🇷 youtube@资源分享师_法国_100"
+      - "[Trojan] 🇫🇷 youtube@资源分享师_法国_194"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_1"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_101"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_11"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_14"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_144"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_2"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_20"
+      - "[VMess] 🇭🇰 youtube@资源分享师_香港_235"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_264"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_274"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_4"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_53"
+      - "[VMess] 🇭🇰 youtube@资源分享师_香港_56"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_7"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_9"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_95"
+      - "[VMess] 🇮🇷 youtube@资源分享师_伊朗_269"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_13"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_18"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_181"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_182"
+      - "[VMess] 🇯🇵 youtube@资源分享师_日本_21"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_22"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_23"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_30"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_34"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_5"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_55"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_58"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_6"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_8"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_81"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_89"
+      - "[VMess] 🇰🇷 youtube@资源分享师_韩国_257"
+      - "[Trojan] 🇲🇴 youtube@资源分享师_澳门_210"
+      - "[Trojan] 🇲🇴 youtube@资源分享师_澳门_29"
+      - "[VMess] 🇳🇱 youtube@资源分享师_荷兰_88"
+      - "[VMess] 🇳🇱 youtube@资源分享师_荷兰_96"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_10"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_12"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_15"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_151"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_16"
+      - "[SS] 🇸🇬 youtube@资源分享师_新加坡_175"
+      - "[VMess] 🇸🇬 youtube@资源分享师_新加坡_178"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_19"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_199"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_267"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_77"
+      - "[VMess] 🇺🇸 youtube@资源分享师_亚美尼亚_119"
+      - "[VMess] 🇺🇸 youtube@资源分享师_亚美尼亚_36"
+      - "[VMess] 🇺🇸 youtube@资源分享师_亚美尼亚_65"
+      - "[VMess] 🇺🇸 youtube@资源分享师_亚美尼亚_76"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_106"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_107"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_112"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_120"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_122"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_123"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_157"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_169"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_171"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_172"
+      - "[Trojan] 🇺🇸 youtube@资源分享师_美国_186"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_196"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_206"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_213"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_233"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_234"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_251"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_41"
+      - "[Trojan] 🇺🇸 youtube@资源分享师_美国_46"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_49"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_54"
+      - "[Trojan] 🇺🇸 youtube@资源分享师_美国_57"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_61"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_74"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_79"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_83"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_84"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_94"
+      - "[VMess] 🇻🇳 youtube@资源分享师_越南_211"
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - "[VMess] youtube@资源分享师_undefined_108"
+      - "[VMess] youtube@资源分享师_undefined_113"
+      - "[VMess] youtube@资源分享师_undefined_129"
+      - "[VMess] youtube@资源分享师_undefined_141"
+      - "[VMess] youtube@资源分享师_undefined_148"
+      - "[VMess] youtube@资源分享师_undefined_150"
+      - "[VMess] youtube@资源分享师_undefined_154"
+      - "[VMess] youtube@资源分享师_undefined_158"
+      - "[VMess] youtube@资源分享师_undefined_164"
+      - "[VMess] youtube@资源分享师_undefined_165"
+      - "[VMess] youtube@资源分享师_undefined_166"
+      - "[VMess] youtube@资源分享师_undefined_170"
+      - "[VMess] youtube@资源分享师_undefined_173"
+      - "[VMess] youtube@资源分享师_undefined_183"
+      - "[VMess] youtube@资源分享师_undefined_187"
+      - "[VMess] youtube@资源分享师_undefined_189"
+      - "[VMess] youtube@资源分享师_undefined_191"
+      - "[VMess] youtube@资源分享师_undefined_192"
+      - "[VMess] youtube@资源分享师_undefined_197"
+      - "[VMess] youtube@资源分享师_undefined_201"
+      - "[VMess] youtube@资源分享师_undefined_202"
+      - "[VMess] youtube@资源分享师_undefined_203"
+      - "[VMess] youtube@资源分享师_undefined_205"
+      - "[VMess] youtube@资源分享师_undefined_208"
+      - "[VMess] youtube@资源分享师_undefined_212"
+      - "[VMess] youtube@资源分享师_undefined_219"
+      - "[VMess] youtube@资源分享师_undefined_221"
+      - "[VMess] youtube@资源分享师_undefined_226"
+      - "[VMess] youtube@资源分享师_undefined_227"
+      - "[VMess] youtube@资源分享师_undefined_230"
+      - "[VMess] youtube@资源分享师_undefined_242"
+      - "[VMess] youtube@资源分享师_undefined_247"
+      - "[VMess] youtube@资源分享师_undefined_258"
+      - "[VMess] youtube@资源分享师_undefined_259"
+      - "[VMess] youtube@资源分享师_undefined_262"
+      - "[VMess] youtube@资源分享师_undefined_266"
+      - "[VMess] youtube@资源分享师_undefined_33"
+      - "[VMess] youtube@资源分享师_undefined_37"
+      - "[VMess] youtube@资源分享师_undefined_43"
+      - "[VMess] youtube@资源分享师_undefined_50"
+      - "[VMess] youtube@资源分享师_undefined_51"
+      - "[VMess] youtube@资源分享师_undefined_73"
+      - "[VMess] youtube@资源分享师_undefined_87"
+      - "[VMess] youtube@资源分享师_undefined_92"
+      - "[VMess] youtube@资源分享师_伯利兹_103"
+      - "[VMess] youtube@资源分享师_伯利兹_115"
+      - "[VMess] youtube@资源分享师_伯利兹_116"
+      - "[VMess] youtube@资源分享师_伯利兹_117"
+      - "[VMess] youtube@资源分享师_伯利兹_185"
+      - "[VMess] youtube@资源分享师_伯利兹_28"
+      - "[VMess] youtube@资源分享师_伯利兹_31"
+      - "[VMess] youtube@资源分享师_伯利兹_35"
+      - "[VMess] youtube@资源分享师_伯利兹_38"
+      - "[VMess] youtube@资源分享师_伯利兹_47"
+      - "[VMess] youtube@资源分享师_伯利兹_98"
+      - "[VMess] youtube@资源分享师_伯利兹_99"
+      - "[Trojan] 🇦🇺 youtube@资源分享师_澳大利亚_143"
+      - "[Trojan] 🇦🇺 youtube@资源分享师_澳大利亚_146"
+      - "[VMess] 🇨🇦 youtube@资源分享师_加拿大_111"
+      - "[VMess] 🇨🇦 youtube@资源分享师_加拿大_59"
+      - "[Trojan] 🇨🇳 youtube@资源分享师_中国_17"
+      - "[VMess] 🇨🇳 youtube@资源分享师_中国_241"
+      - "[VMess] 🇨🇳 youtube@资源分享师_中国_253"
+      - "[VMess] 🇨🇳 youtube@资源分享师_中国_265"
+      - "[Trojan] 🇨🇳 youtube@资源分享师_中国_268"
+      - "[VMess] 🇨🇾 youtube@资源分享师_塞浦路斯_102"
+      - "[VMess] 🇨🇾 youtube@资源分享师_塞浦路斯_114"
+      - "[VMess] 🇨🇾 youtube@资源分享师_塞浦路斯_128"
+      - "[VMess] 🇫🇮 youtube@资源分享师_芬兰_188"
+      - "[Trojan] 🇫🇷 youtube@资源分享师_法国_100"
+      - "[Trojan] 🇫🇷 youtube@资源分享师_法国_194"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_1"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_101"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_11"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_14"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_144"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_2"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_20"
+      - "[VMess] 🇭🇰 youtube@资源分享师_香港_235"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_264"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_274"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_4"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_53"
+      - "[VMess] 🇭🇰 youtube@资源分享师_香港_56"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_7"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_9"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_95"
+      - "[VMess] 🇮🇷 youtube@资源分享师_伊朗_269"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_13"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_18"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_181"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_182"
+      - "[VMess] 🇯🇵 youtube@资源分享师_日本_21"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_22"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_23"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_30"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_34"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_5"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_55"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_58"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_6"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_8"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_81"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_89"
+      - "[VMess] 🇰🇷 youtube@资源分享师_韩国_257"
+      - "[Trojan] 🇲🇴 youtube@资源分享师_澳门_210"
+      - "[Trojan] 🇲🇴 youtube@资源分享师_澳门_29"
+      - "[VMess] 🇳🇱 youtube@资源分享师_荷兰_88"
+      - "[VMess] 🇳🇱 youtube@资源分享师_荷兰_96"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_10"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_12"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_15"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_151"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_16"
+      - "[SS] 🇸🇬 youtube@资源分享师_新加坡_175"
+      - "[VMess] 🇸🇬 youtube@资源分享师_新加坡_178"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_19"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_199"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_267"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_77"
+      - "[VMess] 🇺🇸 youtube@资源分享师_亚美尼亚_119"
+      - "[VMess] 🇺🇸 youtube@资源分享师_亚美尼亚_36"
+      - "[VMess] 🇺🇸 youtube@资源分享师_亚美尼亚_65"
+      - "[VMess] 🇺🇸 youtube@资源分享师_亚美尼亚_76"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_106"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_107"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_112"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_120"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_122"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_123"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_157"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_169"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_171"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_172"
+      - "[Trojan] 🇺🇸 youtube@资源分享师_美国_186"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_196"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_206"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_213"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_233"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_234"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_251"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_41"
+      - "[Trojan] 🇺🇸 youtube@资源分享师_美国_46"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_49"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_54"
+      - "[Trojan] 🇺🇸 youtube@资源分享师_美国_57"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_61"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_74"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_79"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_83"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_84"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_94"
+      - "[VMess] 🇻🇳 youtube@资源分享师_越南_211"
+  - name: 🔯 故障转移
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - "[VMess] youtube@资源分享师_undefined_108"
+      - "[VMess] youtube@资源分享师_undefined_113"
+      - "[VMess] youtube@资源分享师_undefined_129"
+      - "[VMess] youtube@资源分享师_undefined_141"
+      - "[VMess] youtube@资源分享师_undefined_148"
+      - "[VMess] youtube@资源分享师_undefined_150"
+      - "[VMess] youtube@资源分享师_undefined_154"
+      - "[VMess] youtube@资源分享师_undefined_158"
+      - "[VMess] youtube@资源分享师_undefined_164"
+      - "[VMess] youtube@资源分享师_undefined_165"
+      - "[VMess] youtube@资源分享师_undefined_166"
+      - "[VMess] youtube@资源分享师_undefined_170"
+      - "[VMess] youtube@资源分享师_undefined_173"
+      - "[VMess] youtube@资源分享师_undefined_183"
+      - "[VMess] youtube@资源分享师_undefined_187"
+      - "[VMess] youtube@资源分享师_undefined_189"
+      - "[VMess] youtube@资源分享师_undefined_191"
+      - "[VMess] youtube@资源分享师_undefined_192"
+      - "[VMess] youtube@资源分享师_undefined_197"
+      - "[VMess] youtube@资源分享师_undefined_201"
+      - "[VMess] youtube@资源分享师_undefined_202"
+      - "[VMess] youtube@资源分享师_undefined_203"
+      - "[VMess] youtube@资源分享师_undefined_205"
+      - "[VMess] youtube@资源分享师_undefined_208"
+      - "[VMess] youtube@资源分享师_undefined_212"
+      - "[VMess] youtube@资源分享师_undefined_219"
+      - "[VMess] youtube@资源分享师_undefined_221"
+      - "[VMess] youtube@资源分享师_undefined_226"
+      - "[VMess] youtube@资源分享师_undefined_227"
+      - "[VMess] youtube@资源分享师_undefined_230"
+      - "[VMess] youtube@资源分享师_undefined_242"
+      - "[VMess] youtube@资源分享师_undefined_247"
+      - "[VMess] youtube@资源分享师_undefined_258"
+      - "[VMess] youtube@资源分享师_undefined_259"
+      - "[VMess] youtube@资源分享师_undefined_262"
+      - "[VMess] youtube@资源分享师_undefined_266"
+      - "[VMess] youtube@资源分享师_undefined_33"
+      - "[VMess] youtube@资源分享师_undefined_37"
+      - "[VMess] youtube@资源分享师_undefined_43"
+      - "[VMess] youtube@资源分享师_undefined_50"
+      - "[VMess] youtube@资源分享师_undefined_51"
+      - "[VMess] youtube@资源分享师_undefined_73"
+      - "[VMess] youtube@资源分享师_undefined_87"
+      - "[VMess] youtube@资源分享师_undefined_92"
+      - "[VMess] youtube@资源分享师_伯利兹_103"
+      - "[VMess] youtube@资源分享师_伯利兹_115"
+      - "[VMess] youtube@资源分享师_伯利兹_116"
+      - "[VMess] youtube@资源分享师_伯利兹_117"
+      - "[VMess] youtube@资源分享师_伯利兹_185"
+      - "[VMess] youtube@资源分享师_伯利兹_28"
+      - "[VMess] youtube@资源分享师_伯利兹_31"
+      - "[VMess] youtube@资源分享师_伯利兹_35"
+      - "[VMess] youtube@资源分享师_伯利兹_38"
+      - "[VMess] youtube@资源分享师_伯利兹_47"
+      - "[VMess] youtube@资源分享师_伯利兹_98"
+      - "[VMess] youtube@资源分享师_伯利兹_99"
+      - "[Trojan] 🇦🇺 youtube@资源分享师_澳大利亚_143"
+      - "[Trojan] 🇦🇺 youtube@资源分享师_澳大利亚_146"
+      - "[VMess] 🇨🇦 youtube@资源分享师_加拿大_111"
+      - "[VMess] 🇨🇦 youtube@资源分享师_加拿大_59"
+      - "[Trojan] 🇨🇳 youtube@资源分享师_中国_17"
+      - "[VMess] 🇨🇳 youtube@资源分享师_中国_241"
+      - "[VMess] 🇨🇳 youtube@资源分享师_中国_253"
+      - "[VMess] 🇨🇳 youtube@资源分享师_中国_265"
+      - "[Trojan] 🇨🇳 youtube@资源分享师_中国_268"
+      - "[VMess] 🇨🇾 youtube@资源分享师_塞浦路斯_102"
+      - "[VMess] 🇨🇾 youtube@资源分享师_塞浦路斯_114"
+      - "[VMess] 🇨🇾 youtube@资源分享师_塞浦路斯_128"
+      - "[VMess] 🇫🇮 youtube@资源分享师_芬兰_188"
+      - "[Trojan] 🇫🇷 youtube@资源分享师_法国_100"
+      - "[Trojan] 🇫🇷 youtube@资源分享师_法国_194"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_1"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_101"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_11"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_14"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_144"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_2"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_20"
+      - "[VMess] 🇭🇰 youtube@资源分享师_香港_235"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_264"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_274"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_4"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_53"
+      - "[VMess] 🇭🇰 youtube@资源分享师_香港_56"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_7"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_9"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_95"
+      - "[VMess] 🇮🇷 youtube@资源分享师_伊朗_269"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_13"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_18"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_181"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_182"
+      - "[VMess] 🇯🇵 youtube@资源分享师_日本_21"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_22"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_23"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_30"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_34"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_5"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_55"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_58"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_6"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_8"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_81"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_89"
+      - "[VMess] 🇰🇷 youtube@资源分享师_韩国_257"
+      - "[Trojan] 🇲🇴 youtube@资源分享师_澳门_210"
+      - "[Trojan] 🇲🇴 youtube@资源分享师_澳门_29"
+      - "[VMess] 🇳🇱 youtube@资源分享师_荷兰_88"
+      - "[VMess] 🇳🇱 youtube@资源分享师_荷兰_96"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_10"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_12"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_15"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_151"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_16"
+      - "[SS] 🇸🇬 youtube@资源分享师_新加坡_175"
+      - "[VMess] 🇸🇬 youtube@资源分享师_新加坡_178"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_19"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_199"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_267"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_77"
+      - "[VMess] 🇺🇸 youtube@资源分享师_亚美尼亚_119"
+      - "[VMess] 🇺🇸 youtube@资源分享师_亚美尼亚_36"
+      - "[VMess] 🇺🇸 youtube@资源分享师_亚美尼亚_65"
+      - "[VMess] 🇺🇸 youtube@资源分享师_亚美尼亚_76"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_106"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_107"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_112"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_120"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_122"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_123"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_157"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_169"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_171"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_172"
+      - "[Trojan] 🇺🇸 youtube@资源分享师_美国_186"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_196"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_206"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_213"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_233"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_234"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_251"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_41"
+      - "[Trojan] 🇺🇸 youtube@资源分享师_美国_46"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_49"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_54"
+      - "[Trojan] 🇺🇸 youtube@资源分享师_美国_57"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_61"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_74"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_79"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_83"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_84"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_94"
+      - "[VMess] 🇻🇳 youtube@资源分享师_越南_211"
+  - name: 🔮 负载均衡
+    type: load-balance
+    strategy: consistent-hashing
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - "[VMess] youtube@资源分享师_undefined_108"
+      - "[VMess] youtube@资源分享师_undefined_113"
+      - "[VMess] youtube@资源分享师_undefined_129"
+      - "[VMess] youtube@资源分享师_undefined_141"
+      - "[VMess] youtube@资源分享师_undefined_148"
+      - "[VMess] youtube@资源分享师_undefined_150"
+      - "[VMess] youtube@资源分享师_undefined_154"
+      - "[VMess] youtube@资源分享师_undefined_158"
+      - "[VMess] youtube@资源分享师_undefined_164"
+      - "[VMess] youtube@资源分享师_undefined_165"
+      - "[VMess] youtube@资源分享师_undefined_166"
+      - "[VMess] youtube@资源分享师_undefined_170"
+      - "[VMess] youtube@资源分享师_undefined_173"
+      - "[VMess] youtube@资源分享师_undefined_183"
+      - "[VMess] youtube@资源分享师_undefined_187"
+      - "[VMess] youtube@资源分享师_undefined_189"
+      - "[VMess] youtube@资源分享师_undefined_191"
+      - "[VMess] youtube@资源分享师_undefined_192"
+      - "[VMess] youtube@资源分享师_undefined_197"
+      - "[VMess] youtube@资源分享师_undefined_201"
+      - "[VMess] youtube@资源分享师_undefined_202"
+      - "[VMess] youtube@资源分享师_undefined_203"
+      - "[VMess] youtube@资源分享师_undefined_205"
+      - "[VMess] youtube@资源分享师_undefined_208"
+      - "[VMess] youtube@资源分享师_undefined_212"
+      - "[VMess] youtube@资源分享师_undefined_219"
+      - "[VMess] youtube@资源分享师_undefined_221"
+      - "[VMess] youtube@资源分享师_undefined_226"
+      - "[VMess] youtube@资源分享师_undefined_227"
+      - "[VMess] youtube@资源分享师_undefined_230"
+      - "[VMess] youtube@资源分享师_undefined_242"
+      - "[VMess] youtube@资源分享师_undefined_247"
+      - "[VMess] youtube@资源分享师_undefined_258"
+      - "[VMess] youtube@资源分享师_undefined_259"
+      - "[VMess] youtube@资源分享师_undefined_262"
+      - "[VMess] youtube@资源分享师_undefined_266"
+      - "[VMess] youtube@资源分享师_undefined_33"
+      - "[VMess] youtube@资源分享师_undefined_37"
+      - "[VMess] youtube@资源分享师_undefined_43"
+      - "[VMess] youtube@资源分享师_undefined_50"
+      - "[VMess] youtube@资源分享师_undefined_51"
+      - "[VMess] youtube@资源分享师_undefined_73"
+      - "[VMess] youtube@资源分享师_undefined_87"
+      - "[VMess] youtube@资源分享师_undefined_92"
+      - "[VMess] youtube@资源分享师_伯利兹_103"
+      - "[VMess] youtube@资源分享师_伯利兹_115"
+      - "[VMess] youtube@资源分享师_伯利兹_116"
+      - "[VMess] youtube@资源分享师_伯利兹_117"
+      - "[VMess] youtube@资源分享师_伯利兹_185"
+      - "[VMess] youtube@资源分享师_伯利兹_28"
+      - "[VMess] youtube@资源分享师_伯利兹_31"
+      - "[VMess] youtube@资源分享师_伯利兹_35"
+      - "[VMess] youtube@资源分享师_伯利兹_38"
+      - "[VMess] youtube@资源分享师_伯利兹_47"
+      - "[VMess] youtube@资源分享师_伯利兹_98"
+      - "[VMess] youtube@资源分享师_伯利兹_99"
+      - "[Trojan] 🇦🇺 youtube@资源分享师_澳大利亚_143"
+      - "[Trojan] 🇦🇺 youtube@资源分享师_澳大利亚_146"
+      - "[VMess] 🇨🇦 youtube@资源分享师_加拿大_111"
+      - "[VMess] 🇨🇦 youtube@资源分享师_加拿大_59"
+      - "[Trojan] 🇨🇳 youtube@资源分享师_中国_17"
+      - "[VMess] 🇨🇳 youtube@资源分享师_中国_241"
+      - "[VMess] 🇨🇳 youtube@资源分享师_中国_253"
+      - "[VMess] 🇨🇳 youtube@资源分享师_中国_265"
+      - "[Trojan] 🇨🇳 youtube@资源分享师_中国_268"
+      - "[VMess] 🇨🇾 youtube@资源分享师_塞浦路斯_102"
+      - "[VMess] 🇨🇾 youtube@资源分享师_塞浦路斯_114"
+      - "[VMess] 🇨🇾 youtube@资源分享师_塞浦路斯_128"
+      - "[VMess] 🇫🇮 youtube@资源分享师_芬兰_188"
+      - "[Trojan] 🇫🇷 youtube@资源分享师_法国_100"
+      - "[Trojan] 🇫🇷 youtube@资源分享师_法国_194"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_1"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_101"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_11"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_14"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_144"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_2"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_20"
+      - "[VMess] 🇭🇰 youtube@资源分享师_香港_235"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_264"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_274"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_4"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_53"
+      - "[VMess] 🇭🇰 youtube@资源分享师_香港_56"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_7"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_9"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_95"
+      - "[VMess] 🇮🇷 youtube@资源分享师_伊朗_269"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_13"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_18"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_181"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_182"
+      - "[VMess] 🇯🇵 youtube@资源分享师_日本_21"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_22"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_23"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_30"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_34"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_5"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_55"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_58"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_6"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_8"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_81"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_89"
+      - "[VMess] 🇰🇷 youtube@资源分享师_韩国_257"
+      - "[Trojan] 🇲🇴 youtube@资源分享师_澳门_210"
+      - "[Trojan] 🇲🇴 youtube@资源分享师_澳门_29"
+      - "[VMess] 🇳🇱 youtube@资源分享师_荷兰_88"
+      - "[VMess] 🇳🇱 youtube@资源分享师_荷兰_96"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_10"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_12"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_15"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_151"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_16"
+      - "[SS] 🇸🇬 youtube@资源分享师_新加坡_175"
+      - "[VMess] 🇸🇬 youtube@资源分享师_新加坡_178"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_19"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_199"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_267"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_77"
+      - "[VMess] 🇺🇸 youtube@资源分享师_亚美尼亚_119"
+      - "[VMess] 🇺🇸 youtube@资源分享师_亚美尼亚_36"
+      - "[VMess] 🇺🇸 youtube@资源分享师_亚美尼亚_65"
+      - "[VMess] 🇺🇸 youtube@资源分享师_亚美尼亚_76"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_106"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_107"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_112"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_120"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_122"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_123"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_157"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_169"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_171"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_172"
+      - "[Trojan] 🇺🇸 youtube@资源分享师_美国_186"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_196"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_206"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_213"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_233"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_234"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_251"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_41"
+      - "[Trojan] 🇺🇸 youtube@资源分享师_美国_46"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_49"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_54"
+      - "[Trojan] 🇺🇸 youtube@资源分享师_美国_57"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_61"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_74"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_79"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_83"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_84"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_94"
+      - "[VMess] 🇻🇳 youtube@资源分享师_越南_211"
+  - name: 📲 电报消息
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇸🇬 狮城节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 📹 油管视频
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇸🇬 狮城节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 🎥 奈飞视频
+    type: select
+    proxies:
+      - 🎥 奈飞节点
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇸🇬 狮城节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 📺 巴哈姆特
+    type: select
+    proxies:
+      - 🇨🇳 台湾节点
+      - 🚀 节点选择
+      - 🚀 手动切换
+      - DIRECT
+  - name: 📺 哔哩哔哩
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🇨🇳 台湾节点
+      - 🇭🇰 香港节点
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 🌏 国内媒体
+    type: select
+    proxies:
+      - DIRECT
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🚀 手动切换
+  - name: 📢 谷歌FCM
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+  - name: Ⓜ️ 微软云盘
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+  - name: 🎮 游戏平台
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+  - name: 🎶 网易音乐
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
+  - name: 🛑 广告拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🍃 应用净化
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🆎 AdBlock
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🛡️ 隐私防护
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - DIRECT
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+  - name: 🇭🇰 香港节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_1"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_101"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_11"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_14"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_144"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_2"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_20"
+      - "[VMess] 🇭🇰 youtube@资源分享师_香港_235"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_264"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_274"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_4"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_53"
+      - "[VMess] 🇭🇰 youtube@资源分享师_香港_56"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_7"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_9"
+      - "[Trojan] 🇭🇰 youtube@资源分享师_香港_95"
+  - name: 🇯🇵 日本节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_13"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_18"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_181"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_182"
+      - "[VMess] 🇯🇵 youtube@资源分享师_日本_21"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_22"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_23"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_30"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_34"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_5"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_55"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_58"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_6"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_8"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_81"
+      - "[Trojan] 🇯🇵 youtube@资源分享师_日本_89"
+  - name: 🇺🇲 美国节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 150
+    proxies:
+      - "[VMess] 🇺🇸 youtube@资源分享师_亚美尼亚_119"
+      - "[VMess] 🇺🇸 youtube@资源分享师_亚美尼亚_36"
+      - "[VMess] 🇺🇸 youtube@资源分享师_亚美尼亚_65"
+      - "[VMess] 🇺🇸 youtube@资源分享师_亚美尼亚_76"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_106"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_107"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_112"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_120"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_122"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_123"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_157"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_169"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_171"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_172"
+      - "[Trojan] 🇺🇸 youtube@资源分享师_美国_186"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_196"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_206"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_213"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_233"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_234"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_251"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_41"
+      - "[Trojan] 🇺🇸 youtube@资源分享师_美国_46"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_49"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_54"
+      - "[Trojan] 🇺🇸 youtube@资源分享师_美国_57"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_61"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_74"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_79"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_83"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_84"
+      - "[VMess] 🇺🇸 youtube@资源分享师_美国_94"
+  - name: 🇨🇳 台湾节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: 🇸🇬 狮城节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_10"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_12"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_15"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_151"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_16"
+      - "[SS] 🇸🇬 youtube@资源分享师_新加坡_175"
+      - "[VMess] 🇸🇬 youtube@资源分享师_新加坡_178"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_19"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_199"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_267"
+      - "[Trojan] 🇸🇬 youtube@资源分享师_新加坡_77"
+  - name: 🇰🇷 韩国节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - "[VMess] 🇰🇷 youtube@资源分享师_韩国_257"
+  - name: 🎥 奈飞节点
+    type: select
+    proxies:
+      - DIRECT
+rules:
+  - RULE-SET,LocalAreaNetwork,🎯 全球直连
+  - RULE-SET,UnBan,🎯 全球直连
+  - RULE-SET,BanAD,🛑 广告拦截
+  - RULE-SET,BanProgramAD,🍃 应用净化
+  - RULE-SET,BanEasyList,🆎 AdBlock
+  - RULE-SET,BanEasyListChina,🆎 AdBlock
+  - RULE-SET,BanEasyPrivacy,🛡️ 隐私防护
+  - RULE-SET,GoogleFCM,📢 谷歌FCM
+  - RULE-SET,GoogleCN,🎯 全球直连
+  - RULE-SET,SteamCN,🎯 全球直连
+  - RULE-SET,OneDrive,Ⓜ️ 微软云盘
+  - RULE-SET,Microsoft,Ⓜ️ 微软服务
+  - RULE-SET,Apple,🍎 苹果服务
+  - RULE-SET,Telegram,📲 电报消息
+  - RULE-SET,NetEaseMusic,🎶 网易音乐
+  - RULE-SET,Epic,🎮 游戏平台
+  - RULE-SET,Sony,🎮 游戏平台
+  - RULE-SET,Steam,🎮 游戏平台
+  - RULE-SET,Nintendo,🎮 游戏平台
+  - RULE-SET,YouTube,📹 油管视频
+  - RULE-SET,Netflix,🎥 奈飞视频
+  - RULE-SET,Bahamut,📺 巴哈姆特
+  - RULE-SET,BilibiliHMT,📺 哔哩哔哩
+  - RULE-SET,Bilibili,📺 哔哩哔哩
+  - RULE-SET,ChinaMedia,🌏 国内媒体
+  - RULE-SET,ProxyMedia,🌍 国外媒体
+  - RULE-SET,ProxyGFWlist,🚀 节点选择
+  - RULE-SET,ChinaDomain,🎯 全球直连
+  - RULE-SET,ChinaCompanyIp,🎯 全球直连
+  - RULE-SET,Download,🎯 全球直连
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🐟 漏网之鱼
+rule-providers:
+  LocalAreaNetwork:
+    type: http
+    behavior: classical
+    url: "https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvTG9jYWxBcmVhTmV0d29yay5saXN0"
+    path: ./providers/rule-provider_LocalAreaNetwork.yaml
+    interval: 86400
+  UnBan:
+    type: http
+    behavior: classical
+    url: "https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvVW5CYW4ubGlzdA"
+    path: ./providers/rule-provider_UnBan.yaml
+    interval: 86400
+  BanAD:
+    type: http
+    behavior: classical
+    url: "https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQmFuQUQubGlzdA"
+    path: ./providers/rule-provider_BanAD.yaml
+    interval: 86400
+  BanProgramAD:
+    type: http
+    behavior: classical
+    url: "https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQmFuUHJvZ3JhbUFELmxpc3Q"
+    path: ./providers/rule-provider_BanProgramAD.yaml
+    interval: 86400
+  BanEasyList:
+    type: http
+    behavior: classical
+    url: "https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQmFuRWFzeUxpc3QubGlzdA"
+    path: ./providers/rule-provider_BanEasyList.yaml
+    interval: 86400
+  BanEasyListChina:
+    type: http
+    behavior: classical
+    url: "https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQmFuRWFzeUxpc3RDaGluYS5saXN0"
+    path: ./providers/rule-provider_BanEasyListChina.yaml
+    interval: 86400
+  BanEasyPrivacy:
+    type: http
+    behavior: classical
+    url: "https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQmFuRWFzeVByaXZhY3kubGlzdA"
+    path: ./providers/rule-provider_BanEasyPrivacy.yaml
+    interval: 86400
+  GoogleFCM:
+    type: http
+    behavior: classical
+    url: "https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUnVsZXNldC9Hb29nbGVGQ00ubGlzdA"
+    path: ./providers/rule-provider_GoogleFCM.yaml
+    interval: 86400
+  GoogleCN:
+    type: http
+    behavior: classical
+    url: "https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvR29vZ2xlQ04ubGlzdA"
+    path: ./providers/rule-provider_GoogleCN.yaml
+    interval: 86400
+  SteamCN:
+    type: http
+    behavior: classical
+    url: "https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUnVsZXNldC9TdGVhbUNOLmxpc3Q"
+    path: ./providers/rule-provider_SteamCN.yaml
+    interval: 86400
+  OneDrive:
+    type: http
+    behavior: classical
+    url: "https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvT25lRHJpdmUubGlzdA"
+    path: ./providers/rule-provider_OneDrive.yaml
+    interval: 86400
+  Microsoft:
+    type: http
+    behavior: classical
+    url: "https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvTWljcm9zb2Z0Lmxpc3Q"
+    path: ./providers/rule-provider_Microsoft.yaml
+    interval: 86400
+  Apple:
+    type: http
+    behavior: classical
+    url: "https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQXBwbGUubGlzdA"
+    path: ./providers/rule-provider_Apple.yaml
+    interval: 86400
+  Telegram:
+    type: http
+    behavior: classical
+    url: "https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvVGVsZWdyYW0ubGlzdA"
+    path: ./providers/rule-provider_Telegram.yaml
+    interval: 86400
+  NetEaseMusic:
+    type: http
+    behavior: classical
+    url: "https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUnVsZXNldC9OZXRFYXNlTXVzaWMubGlzdA"
+    path: ./providers/rule-provider_NetEaseMusic.yaml
+    interval: 86400
+  Epic:
+    type: http
+    behavior: classical
+    url: "https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUnVsZXNldC9FcGljLmxpc3Q"
+    path: ./providers/rule-provider_Epic.yaml
+    interval: 86400
+  Sony:
+    type: http
+    behavior: classical
+    url: "https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUnVsZXNldC9Tb255Lmxpc3Q"
+    path: ./providers/rule-provider_Sony.yaml
+    interval: 86400
+  Steam:
+    type: http
+    behavior: classical
+    url: "https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUnVsZXNldC9TdGVhbS5saXN0"
+    path: ./providers/rule-provider_Steam.yaml
+    interval: 86400
+  Nintendo:
+    type: http
+    behavior: classical
+    url: "https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUnVsZXNldC9OaW50ZW5kby5saXN0"
+    path: ./providers/rule-provider_Nintendo.yaml
+    interval: 86400
+  YouTube:
+    type: http
+    behavior: classical
+    url: "https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUnVsZXNldC9Zb3VUdWJlLmxpc3Q"
+    path: ./providers/rule-provider_YouTube.yaml
+    interval: 86400
+  Netflix:
+    type: http
+    behavior: classical
+    url: "https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUnVsZXNldC9OZXRmbGl4Lmxpc3Q"
+    path: ./providers/rule-provider_Netflix.yaml
+    interval: 86400
+  Bahamut:
+    type: http
+    behavior: classical
+    url: "https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUnVsZXNldC9CYWhhbXV0Lmxpc3Q"
+    path: ./providers/rule-provider_Bahamut.yaml
+    interval: 86400
+  BilibiliHMT:
+    type: http
+    behavior: classical
+    url: "https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUnVsZXNldC9CaWxpYmlsaUhNVC5saXN0"
+    path: ./providers/rule-provider_BilibiliHMT.yaml
+    interval: 86400
+  Bilibili:
+    type: http
+    behavior: classical
+    url: "https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUnVsZXNldC9CaWxpYmlsaS5saXN0"
+    path: ./providers/rule-provider_Bilibili.yaml
+    interval: 86400
+  ChinaMedia:
+    type: http
+    behavior: classical
+    url: "https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQ2hpbmFNZWRpYS5saXN0"
+    path: ./providers/rule-provider_ChinaMedia.yaml
+    interval: 86400
+  ProxyMedia:
+    type: http
+    behavior: classical
+    url: "https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUHJveHlNZWRpYS5saXN0"
+    path: ./providers/rule-provider_ProxyMedia.yaml
+    interval: 86400
+  ProxyGFWlist:
+    type: http
+    behavior: classical
+    url: "https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUHJveHlHRldsaXN0Lmxpc3Q"
+    path: ./providers/rule-provider_ProxyGFWlist.yaml
+    interval: 86400
+  ChinaDomain:
+    type: http
+    behavior: classical
+    url: "https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQ2hpbmFEb21haW4ubGlzdA"
+    path: ./providers/rule-provider_ChinaDomain.yaml
+    interval: 86400
+  ChinaCompanyIp:
+    type: http
+    behavior: classical
+    url: "https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQ2hpbmFDb21wYW55SXAubGlzdA"
+    path: ./providers/rule-provider_ChinaCompanyIp.yaml
+    interval: 86400
+  Download:
+    type: http
+    behavior: classical
+    url: "https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvRG93bmxvYWQubGlzdA"
+    path: ./providers/rule-provider_Download.yaml
+    interval: 86400
