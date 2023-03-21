@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: XG, server: 192.168.3.204, port: 44833, type: vmess, uuid: d3b45787-9fe6-4749-9618-dca2f8cd10b2, alterId: 0, cipher: auto, tls: false}
+  - {name: XG, server: 192.168.3.7, port: 21534, type: vmess, uuid: 5ca275cc-80cd-4ef6-cdcd-e9d5967eb130, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
