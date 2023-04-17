@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: GUO, server: 192.168.3.103, port: 51639, type: vmess, uuid: 5bca63ad-7f2c-43d8-81b7-a144f4170905, alterId: 0, cipher: auto, tls: false}
+  - {name: GUO, server: 192.168.3.17, port: 51639, type: vmess, uuid: 5bca63ad-7f2c-43d8-81b7-a144f4170905, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
