@@ -5,127 +5,103 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: hh, server: 104.18.239.142, port: 2052, type: vmess, uuid: ac5bf858-c51c-4be0-fef3-3765f9f864a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ckn.markluowei.tk}, udp: true}
-  - {name: hh 2, server: 104.18.147.250, port: 2052, type: vmess, uuid: ac5bf858-c51c-4be0-fef3-3765f9f864a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ckn.markluowei.tk}, udp: true}
-  - {name: hh 3, server: 103.21.244.209, port: 2052, type: vmess, uuid: ac5bf858-c51c-4be0-fef3-3765f9f864a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ckn.markluowei.tk}, udp: true}
-  - {name: hh 4, server: 104.27.19.51, port: 2052, type: vmess, uuid: ac5bf858-c51c-4be0-fef3-3765f9f864a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ckn.markluowei.tk}, udp: true}
-  - {name: hh 5, server: 108.162.193.49, port: 2052, type: vmess, uuid: ac5bf858-c51c-4be0-fef3-3765f9f864a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ckn.markluowei.tk}, udp: true}
-  - {name: hh 6, server: 104.19.232.143, port: 2052, type: vmess, uuid: ac5bf858-c51c-4be0-fef3-3765f9f864a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ckn.markluowei.tk}, udp: true}
-  - {name: hh 7, server: 173.245.59.136, port: 2052, type: vmess, uuid: ac5bf858-c51c-4be0-fef3-3765f9f864a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ckn.markluowei.tk}, udp: true}
-  - {name: hh 8, server: 173.245.58.74, port: 2052, type: vmess, uuid: ac5bf858-c51c-4be0-fef3-3765f9f864a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ckn.markluowei.tk}, udp: true}
-  - {name: hh 9, server: 103.21.244.159, port: 2052, type: vmess, uuid: ac5bf858-c51c-4be0-fef3-3765f9f864a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ckn.markluowei.tk}, udp: true}
-  - {name: hh 10, server: 198.41.193.254, port: 2052, type: vmess, uuid: ac5bf858-c51c-4be0-fef3-3765f9f864a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ckn.markluowei.tk}, udp: true}
-  - {name: hh 11, server: 162.159.2.33, port: 2052, type: vmess, uuid: ac5bf858-c51c-4be0-fef3-3765f9f864a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ckn.markluowei.tk}, udp: true}
-  - {name: hh 12, server: 141.101.120.200, port: 2052, type: vmess, uuid: ac5bf858-c51c-4be0-fef3-3765f9f864a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ckn.markluowei.tk}, udp: true}
-  - {name: hh 13, server: 104.22.61.6, port: 2052, type: vmess, uuid: ac5bf858-c51c-4be0-fef3-3765f9f864a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ckn.markluowei.tk}, udp: true}
-  - {name: hh 14, server: 103.21.244.36, port: 2052, type: vmess, uuid: ac5bf858-c51c-4be0-fef3-3765f9f864a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ckn.markluowei.tk}, udp: true}
-  - {name: hh 15, server: 108.162.192.176, port: 2052, type: vmess, uuid: ac5bf858-c51c-4be0-fef3-3765f9f864a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ckn.markluowei.tk}, udp: true}
-  - {name: hh 16, server: 173.245.59.29, port: 2052, type: vmess, uuid: ac5bf858-c51c-4be0-fef3-3765f9f864a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ckn.markluowei.tk}, udp: true}
-  - {name: hh 17, server: 190.93.244.244, port: 2052, type: vmess, uuid: ac5bf858-c51c-4be0-fef3-3765f9f864a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ckn.markluowei.tk}, udp: true}
-  - {name: hh 18, server: 190.93.244.207, port: 2052, type: vmess, uuid: ac5bf858-c51c-4be0-fef3-3765f9f864a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ckn.markluowei.tk}, udp: true}
-  - {name: hh 19, server: 198.41.216.230, port: 2052, type: vmess, uuid: ac5bf858-c51c-4be0-fef3-3765f9f864a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ckn.markluowei.tk}, udp: true}
-  - {name: hh 20, server: 141.101.120.87, port: 2052, type: vmess, uuid: ac5bf858-c51c-4be0-fef3-3765f9f864a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ckn.markluowei.tk}, udp: true}
-  - {name: hh 21, server: 104.19.219.166, port: 2052, type: vmess, uuid: ac5bf858-c51c-4be0-fef3-3765f9f864a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ckn.markluowei.tk}, udp: true}
-  - {name: hh 22, server: 173.245.49.76, port: 2052, type: vmess, uuid: ac5bf858-c51c-4be0-fef3-3765f9f864a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ckn.markluowei.tk}, udp: true}
-  - {name: hh 23, server: 198.41.194.232, port: 2052, type: vmess, uuid: ac5bf858-c51c-4be0-fef3-3765f9f864a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ckn.markluowei.tk}, udp: true}
-  - {name: hh 24, server: 173.245.59.18, port: 2052, type: vmess, uuid: ac5bf858-c51c-4be0-fef3-3765f9f864a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ckn.markluowei.tk}, udp: true}
-  - {name: hh 25, server: 104.19.194.242, port: 2052, type: vmess, uuid: ac5bf858-c51c-4be0-fef3-3765f9f864a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ckn.markluowei.tk}, udp: true}
-  - {name: hh 26, server: 108.162.196.59, port: 2052, type: vmess, uuid: ac5bf858-c51c-4be0-fef3-3765f9f864a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ckn.markluowei.tk}, udp: true}
+  - {name: yu, server: 93.123.17.132, port: 443, type: vmess, uuid: 32a7da32-b2b7-4aa1-909d-532e2963f266, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /bb, ws-headers: {Host: yu.markluowei.tk}, udp: true}
+  - {name: yu 2, server: 92.223.63.29, port: 443, type: vmess, uuid: 32a7da32-b2b7-4aa1-909d-532e2963f266, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /bb, ws-headers: {Host: yu.markluowei.tk}, udp: true}
+  - {name: yu 3, server: 92.223.107.42, port: 443, type: vmess, uuid: 32a7da32-b2b7-4aa1-909d-532e2963f266, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /bb, ws-headers: {Host: yu.markluowei.tk}, udp: true}
+  - {name: yu 4, server: 94.176.183.8, port: 443, type: vmess, uuid: 32a7da32-b2b7-4aa1-909d-532e2963f266, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /bb, ws-headers: {Host: yu.markluowei.tk}, udp: true}
+  - {name: yu 5, server: 92.223.124.30, port: 443, type: vmess, uuid: 32a7da32-b2b7-4aa1-909d-532e2963f266, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /bb, ws-headers: {Host: yu.markluowei.tk}, udp: true}
+  - {name: yu 6, server: 5.188.132.5, port: 443, type: vmess, uuid: 32a7da32-b2b7-4aa1-909d-532e2963f266, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /bb, ws-headers: {Host: yu.markluowei.tk}, udp: true}
+  - {name: yu 7, server: 31.184.207.7, port: 443, type: vmess, uuid: 32a7da32-b2b7-4aa1-909d-532e2963f266, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /bb, ws-headers: {Host: yu.markluowei.tk}, udp: true}
+  - {name: yu 8, server: 92.223.63.23, port: 443, type: vmess, uuid: 32a7da32-b2b7-4aa1-909d-532e2963f266, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /bb, ws-headers: {Host: yu.markluowei.tk}, udp: true}
+  - {name: yu 9, server: 31.184.207.5, port: 443, type: vmess, uuid: 32a7da32-b2b7-4aa1-909d-532e2963f266, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /bb, ws-headers: {Host: yu.markluowei.tk}, udp: true}
+  - {name: yu 10, server: 80.240.113.6, port: 443, type: vmess, uuid: 32a7da32-b2b7-4aa1-909d-532e2963f266, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /bb, ws-headers: {Host: yu.markluowei.tk}, udp: true}
+  - {name: yu 11, server: 93.123.17.141, port: 443, type: vmess, uuid: 32a7da32-b2b7-4aa1-909d-532e2963f266, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /bb, ws-headers: {Host: yu.markluowei.tk}, udp: true}
+  - {name: yu 12, server: 92.223.74.26, port: 443, type: vmess, uuid: 32a7da32-b2b7-4aa1-909d-532e2963f266, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /bb, ws-headers: {Host: yu.markluowei.tk}, udp: true}
+  - {name: yu 13, server: 80.240.113.13, port: 443, type: vmess, uuid: 32a7da32-b2b7-4aa1-909d-532e2963f266, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /bb, ws-headers: {Host: yu.markluowei.tk}, udp: true}
+  - {name: yu 14, server: 92.223.107.57, port: 443, type: vmess, uuid: 32a7da32-b2b7-4aa1-909d-532e2963f266, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /bb, ws-headers: {Host: yu.markluowei.tk}, udp: true}
+  - {name: yu 15, server: 92.223.12.7, port: 443, type: vmess, uuid: 32a7da32-b2b7-4aa1-909d-532e2963f266, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /bb, ws-headers: {Host: yu.markluowei.tk}, udp: true}
+  - {name: yu 16, server: 80.240.124.8, port: 443, type: vmess, uuid: 32a7da32-b2b7-4aa1-909d-532e2963f266, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /bb, ws-headers: {Host: yu.markluowei.tk}, udp: true}
+  - {name: yu 17, server: 93.123.17.135, port: 443, type: vmess, uuid: 32a7da32-b2b7-4aa1-909d-532e2963f266, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /bb, ws-headers: {Host: yu.markluowei.tk}, udp: true}
+  - {name: yu 18, server: 5.101.222.4, port: 443, type: vmess, uuid: 32a7da32-b2b7-4aa1-909d-532e2963f266, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /bb, ws-headers: {Host: yu.markluowei.tk}, udp: true}
+  - {name: yu 19, server: 5.188.126.5, port: 443, type: vmess, uuid: 32a7da32-b2b7-4aa1-909d-532e2963f266, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /bb, ws-headers: {Host: yu.markluowei.tk}, udp: true}
+  - {name: yu 20, server: 130.193.166.2, port: 443, type: vmess, uuid: 32a7da32-b2b7-4aa1-909d-532e2963f266, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /bb, ws-headers: {Host: yu.markluowei.tk}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - hh
-      - hh 2
-      - hh 3
-      - hh 4
-      - hh 5
-      - hh 6
-      - hh 7
-      - hh 8
-      - hh 9
-      - hh 10
-      - hh 11
-      - hh 12
-      - hh 13
-      - hh 14
-      - hh 15
-      - hh 16
-      - hh 17
-      - hh 18
-      - hh 19
-      - hh 20
-      - hh 21
-      - hh 22
-      - hh 23
-      - hh 24
-      - hh 25
-      - hh 26
+      - yu
+      - yu 2
+      - yu 3
+      - yu 4
+      - yu 5
+      - yu 6
+      - yu 7
+      - yu 8
+      - yu 9
+      - yu 10
+      - yu 11
+      - yu 12
+      - yu 13
+      - yu 14
+      - yu 15
+      - yu 16
+      - yu 17
+      - yu 18
+      - yu 19
+      - yu 20
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - hh
-      - hh 2
-      - hh 3
-      - hh 4
-      - hh 5
-      - hh 6
-      - hh 7
-      - hh 8
-      - hh 9
-      - hh 10
-      - hh 11
-      - hh 12
-      - hh 13
-      - hh 14
-      - hh 15
-      - hh 16
-      - hh 17
-      - hh 18
-      - hh 19
-      - hh 20
-      - hh 21
-      - hh 22
-      - hh 23
-      - hh 24
-      - hh 25
-      - hh 26
+      - yu
+      - yu 2
+      - yu 3
+      - yu 4
+      - yu 5
+      - yu 6
+      - yu 7
+      - yu 8
+      - yu 9
+      - yu 10
+      - yu 11
+      - yu 12
+      - yu 13
+      - yu 14
+      - yu 15
+      - yu 16
+      - yu 17
+      - yu 18
+      - yu 19
+      - yu 20
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - hh
-      - hh 2
-      - hh 3
-      - hh 4
-      - hh 5
-      - hh 6
-      - hh 7
-      - hh 8
-      - hh 9
-      - hh 10
-      - hh 11
-      - hh 12
-      - hh 13
-      - hh 14
-      - hh 15
-      - hh 16
-      - hh 17
-      - hh 18
-      - hh 19
-      - hh 20
-      - hh 21
-      - hh 22
-      - hh 23
-      - hh 24
-      - hh 25
-      - hh 26
+      - yu
+      - yu 2
+      - yu 3
+      - yu 4
+      - yu 5
+      - yu 6
+      - yu 7
+      - yu 8
+      - yu 9
+      - yu 10
+      - yu 11
+      - yu 12
+      - yu 13
+      - yu 14
+      - yu 15
+      - yu 16
+      - yu 17
+      - yu 18
+      - yu 19
+      - yu 20
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -144,32 +120,26 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - hh
-      - hh 2
-      - hh 3
-      - hh 4
-      - hh 5
-      - hh 6
-      - hh 7
-      - hh 8
-      - hh 9
-      - hh 10
-      - hh 11
-      - hh 12
-      - hh 13
-      - hh 14
-      - hh 15
-      - hh 16
-      - hh 17
-      - hh 18
-      - hh 19
-      - hh 20
-      - hh 21
-      - hh 22
-      - hh 23
-      - hh 24
-      - hh 25
-      - hh 26
+      - yu
+      - yu 2
+      - yu 3
+      - yu 4
+      - yu 5
+      - yu 6
+      - yu 7
+      - yu 8
+      - yu 9
+      - yu 10
+      - yu 11
+      - yu 12
+      - yu 13
+      - yu 14
+      - yu 15
+      - yu 16
+      - yu 17
+      - yu 18
+      - yu 19
+      - yu 20
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -180,95 +150,77 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - hh
-      - hh 2
-      - hh 3
-      - hh 4
-      - hh 5
-      - hh 6
-      - hh 7
-      - hh 8
-      - hh 9
-      - hh 10
-      - hh 11
-      - hh 12
-      - hh 13
-      - hh 14
-      - hh 15
-      - hh 16
-      - hh 17
-      - hh 18
-      - hh 19
-      - hh 20
-      - hh 21
-      - hh 22
-      - hh 23
-      - hh 24
-      - hh 25
-      - hh 26
+      - yu
+      - yu 2
+      - yu 3
+      - yu 4
+      - yu 5
+      - yu 6
+      - yu 7
+      - yu 8
+      - yu 9
+      - yu 10
+      - yu 11
+      - yu 12
+      - yu 13
+      - yu 14
+      - yu 15
+      - yu 16
+      - yu 17
+      - yu 18
+      - yu 19
+      - yu 20
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - hh
-      - hh 2
-      - hh 3
-      - hh 4
-      - hh 5
-      - hh 6
-      - hh 7
-      - hh 8
-      - hh 9
-      - hh 10
-      - hh 11
-      - hh 12
-      - hh 13
-      - hh 14
-      - hh 15
-      - hh 16
-      - hh 17
-      - hh 18
-      - hh 19
-      - hh 20
-      - hh 21
-      - hh 22
-      - hh 23
-      - hh 24
-      - hh 25
-      - hh 26
+      - yu
+      - yu 2
+      - yu 3
+      - yu 4
+      - yu 5
+      - yu 6
+      - yu 7
+      - yu 8
+      - yu 9
+      - yu 10
+      - yu 11
+      - yu 12
+      - yu 13
+      - yu 14
+      - yu 15
+      - yu 16
+      - yu 17
+      - yu 18
+      - yu 19
+      - yu 20
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - hh
-      - hh 2
-      - hh 3
-      - hh 4
-      - hh 5
-      - hh 6
-      - hh 7
-      - hh 8
-      - hh 9
-      - hh 10
-      - hh 11
-      - hh 12
-      - hh 13
-      - hh 14
-      - hh 15
-      - hh 16
-      - hh 17
-      - hh 18
-      - hh 19
-      - hh 20
-      - hh 21
-      - hh 22
-      - hh 23
-      - hh 24
-      - hh 25
-      - hh 26
+      - yu
+      - yu 2
+      - yu 3
+      - yu 4
+      - yu 5
+      - yu 6
+      - yu 7
+      - yu 8
+      - yu 9
+      - yu 10
+      - yu 11
+      - yu 12
+      - yu 13
+      - yu 14
+      - yu 15
+      - yu 16
+      - yu 17
+      - yu 18
+      - yu 19
+      - yu 20
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -284,32 +236,26 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - hh
-      - hh 2
-      - hh 3
-      - hh 4
-      - hh 5
-      - hh 6
-      - hh 7
-      - hh 8
-      - hh 9
-      - hh 10
-      - hh 11
-      - hh 12
-      - hh 13
-      - hh 14
-      - hh 15
-      - hh 16
-      - hh 17
-      - hh 18
-      - hh 19
-      - hh 20
-      - hh 21
-      - hh 22
-      - hh 23
-      - hh 24
-      - hh 25
-      - hh 26
+      - yu
+      - yu 2
+      - yu 3
+      - yu 4
+      - yu 5
+      - yu 6
+      - yu 7
+      - yu 8
+      - yu 9
+      - yu 10
+      - yu 11
+      - yu 12
+      - yu 13
+      - yu 14
+      - yu 15
+      - yu 16
+      - yu 17
+      - yu 18
+      - yu 19
+      - yu 20
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
