@@ -10,9 +10,11 @@ proxies:
   - {name: HK3, server: 172.66.40.11, port: 2052, type: vmess, uuid: ac5bf858-c51c-4be0-fef3-3765f9f864a7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ist.markluo.online}}}
   - {name: HK4, server: 104.19.170.254, port: 2052, type: vmess, uuid: ac5bf858-c51c-4be0-fef3-3765f9f864a7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ist.markluo.online}}}
   - {name: HK5, server: 162.159.129.189, port: 2052, type: vmess, uuid: ac5bf858-c51c-4be0-fef3-3765f9f864a7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ist.markluo.online}}}
-  - {name: HK6, server: 172.67.192.133, port: 2052, type: vmess, uuid: ac5bf858-c51c-4be0-fef3-3765f9f864a7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ist.markluo.online}}}
-  - {name: HK7, server: 104.18.9.104, port: 2052, type: vmess, uuid: ac5bf858-c51c-4be0-fef3-3765f9f864a7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ist.markluo.online}}}
-  - {name: HK9, server: 104.26.15.87, port: 2052, type: vmess, uuid: ac5bf858-c51c-4be0-fef3-3765f9f864a7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ist.markluo.online}}}
+  - {name: HK6, server: 173.245.49.0, port: 2052, type: vmess, uuid: ac5bf858-c51c-4be0-fef3-3765f9f864a7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ist.markluo.online}}}
+  - {name: HK7, server: 173.245.49.0, port: 2052, type: vmess, uuid: ac5bf858-c51c-4be0-fef3-3765f9f864a7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ist.markluo.online}}}
+  - {name: HK8, server: 104.18.160.0, port: 2052, type: vmess, uuid: ac5bf858-c51c-4be0-fef3-3765f9f864a7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ist.markluo.online}}}
+  - {name: HK9, server: 104.18.224.0, port: 2052, type: vmess, uuid: ac5bf858-c51c-4be0-fef3-3765f9f864a7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ist.markluo.online}}}
+  - {name: HK10, server: 104.19.32.0, port: 2052, type: vmess, uuid: ac5bf858-c51c-4be0-fef3-3765f9f864a7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ist.markluo.online}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -38,7 +40,9 @@ proxy-groups:
       - HK5
       - HK6
       - HK7
+      - HK8
       - HK9
+      - HK10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -52,7 +56,9 @@ proxy-groups:
       - HK5
       - HK6
       - HK7
+      - HK8
       - HK9
+      - HK10
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -66,7 +72,9 @@ proxy-groups:
       - HK5
       - HK6
       - HK7
+      - HK8
       - HK9
+      - HK10
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -81,7 +89,9 @@ proxy-groups:
       - HK5
       - HK6
       - HK7
+      - HK8
       - HK9
+      - HK10
   - name: 📲 电报消息
     type: select
     proxies:
@@ -290,7 +300,9 @@ proxy-groups:
       - HK5
       - HK6
       - HK7
+      - HK8
       - HK9
+      - HK10
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -2176,47 +2188,6 @@ rules:
   - DOMAIN-SUFFIX,wunderlist.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,yammer.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,yammerusercontent.com,Ⓜ️ 微软服务
-  - DOMAIN,apple.comscoreresearch.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,aaplimg.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,akadns.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,apple-cloudkit.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,apple-dns.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,apple-mapkit.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,apple.co,🍎 苹果服务
-  - DOMAIN-SUFFIX,apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,apple.com.cn,🍎 苹果服务
-  - DOMAIN-SUFFIX,apple.news,🍎 苹果服务
-  - DOMAIN-SUFFIX,appstore.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,cdn-apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,crashlytics.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloud.com.cn,🍎 苹果服务
-  - DOMAIN-SUFFIX,itunes.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,me.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,mzstatic.com,🍎 苹果服务
-  - IP-CIDR,17.0.0.0/8,🍎 苹果服务,no-resolve
-  - IP-CIDR,63.92.224.0/19,🍎 苹果服务,no-resolve
-  - IP-CIDR,65.199.22.0/23,🍎 苹果服务,no-resolve
-  - IP-CIDR,139.178.128.0/18,🍎 苹果服务,no-resolve
-  - IP-CIDR,144.178.0.0/19,🍎 苹果服务,no-resolve
-  - IP-CIDR,144.178.36.0/22,🍎 苹果服务,no-resolve
-  - IP-CIDR,144.178.48.0/20,🍎 苹果服务,no-resolve
-  - IP-CIDR,192.35.50.0/24,🍎 苹果服务,no-resolve
-  - IP-CIDR,198.183.17.0/24,🍎 苹果服务,no-resolve
-  - IP-CIDR,205.180.175.0/24,🍎 苹果服务,no-resolve
-  - DOMAIN-SUFFIX,t.me,📲 电报消息
-  - DOMAIN-SUFFIX,tdesktop.com,📲 电报消息
-  - DOMAIN-SUFFIX,telegra.ph,📲 电报消息
-  - DOMAIN-SUFFIX,telegram.me,📲 电报消息
-  - DOMAIN-SUFFIX,telegram.org,📲 电报消息
-  - DOMAIN-SUFFIX,telesco.pe,📲 电报消息
-  - IP-CIDR,91.108.0.0/16,📲 电报消息,no-resolve
-  - IP-CIDR,109.239.140.0/24,📲 电报消息,no-resolve
-  - IP-CIDR,149.154.160.0/20,📲 电报消息,no-resolve
-  - IP-CIDR6,2001:67c:4e8::/48,📲 电报消息,no-resolve
-  - IP-CIDR6,2001:b28:f23d::/48,📲 电报消息,no-resolve
-  - IP-CIDR6,2001:b28:f23f::/48,📲 电报消息,no-resolve
   - DOMAIN-KEYWORD,openai,💬 OpenAi
   - DOMAIN,gemini.google.com,💬 OpenAi
   - DOMAIN-SUFFIX,auth0.com,💬 OpenAi
