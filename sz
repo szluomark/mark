@@ -5,33 +5,13 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 香港, server: 185.101.136.12, port: 443, type: vmess, uuid: c2c27284-a770-48ed-985b-8cc79d37693d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sz.markwei.us.kg}}}
-  - {name: 🇭🇰 香港 2, server: 194.152.37.183, port: 443, type: vmess, uuid: c2c27284-a770-48ed-985b-8cc79d37693d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sz.markwei.us.kg}}}
-  - {name: 🇭🇰 香港 3, server: 94.176.183.5, port: 443, type: vmess, uuid: c2c27284-a770-48ed-985b-8cc79d37693d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sz.markwei.us.kg}}}
-  - {name: 🇭🇰 香港 4, server: 92.223.124.23, port: 443, type: vmess, uuid: c2c27284-a770-48ed-985b-8cc79d37693d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sz.markwei.us.kg}}}
-  - {name: 🇭🇰 香港 5, server: 92.223.107.57, port: 443, type: vmess, uuid: c2c27284-a770-48ed-985b-8cc79d37693d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sz.markwei.us.kg}}}
-  - {name: 🇭🇰 香港 6, server: 94.176.183.7, port: 443, type: vmess, uuid: c2c27284-a770-48ed-985b-8cc79d37693d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sz.markwei.us.kg}}}
-  - {name: 🇭🇰 香港 7, server: 87.120.106.8, port: 443, type: vmess, uuid: c2c27284-a770-48ed-985b-8cc79d37693d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sz.markwei.us.kg}}}
-  - {name: 🇭🇰 香港 8, server: 92.223.124.8, port: 443, type: vmess, uuid: c2c27284-a770-48ed-985b-8cc79d37693d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sz.markwei.us.kg}}}
-  - {name: 🇭🇰 香港 9, server: sz.markwei.us.kg, port: 443, type: vmess, uuid: c2c27284-a770-48ed-985b-8cc79d37693d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sz.markwei.us.kg}}}
-  - {name: 🇭🇰 香港 10, server: sz.markwei.us.kg, port: 36197, type: vmess, uuid: c2c27284-a770-48ed-985b-8cc79d37693d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sz.markwei.us.kg}}}
-  - {name: 🇭🇰 香港 11, server: 192.168.1.156, port: 36197, type: vmess, uuid: c2c27284-a770-48ed-985b-8cc79d37693d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇭🇰 香港, server: 100.65.4.19, port: 36197, type: vmess, uuid: c2c27284-a770-48ed-985b-8cc79d37693d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
 proxy-groups:
   - name: 🚀 中国代理
     type: select
     proxies:
       - DIRECT
       - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 🇭🇰 香港 4
-      - 🇭🇰 香港 5
-      - 🇭🇰 香港 6
-      - 🇭🇰 香港 7
-      - 🇭🇰 香港 8
-      - 🇭🇰 香港 9
-      - 🇭🇰 香港 10
-      - 🇭🇰 香港 11
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -53,16 +33,6 @@ proxy-groups:
       - 🚀 中国代理
       - 🎯 全球直连
       - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 🇭🇰 香港 4
-      - 🇭🇰 香港 5
-      - 🇭🇰 香港 6
-      - 🇭🇰 香港 7
-      - 🇭🇰 香港 8
-      - 🇭🇰 香港 9
-      - 🇭🇰 香港 10
-      - 🇭🇰 香港 11
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
