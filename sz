@@ -5,15 +5,19 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 香港, server: 100.65.4.19, port: 36197, type: vmess, uuid: c2c27284-a770-48ed-985b-8cc79d37693d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: sz, server: 100.65.4.19, port: 2086, type: vmess, uuid: a5926951-f0fa-4f1e-f9db-d4c7927ade83, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇨🇳 深圳1, server: xui.markwei.us.kg, port: 2095, type: vmess, uuid: 66667be0-d91b-49dd-e96f-99e7876e09c8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xui.markwei.us.kg}}}
+  - {name: 🇨🇳 深圳1 2, server: 100.127.38.61, port: 2095, type: vmess, uuid: 66667be0-d91b-49dd-e96f-99e7876e09c8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇨🇳 深圳2, server: xui.markwei.us.kg, port: 2052, type: vmess, uuid: 01c33f26-bfca-43a1-9171-333ceed4a012, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xui.markwei.us.kg}}}
+  - {name: 🇨🇳 深圳2 2, server: 100.127.38.61, port: 2052, type: vmess, uuid: 01c33f26-bfca-43a1-9171-333ceed4a012, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
 proxy-groups:
   - name: 🚀 中国代理
     type: select
     proxies:
       - DIRECT
-      - 🇭🇰 香港
-      - sz
+      - 🇨🇳 深圳1
+      - 🇨🇳 深圳1 2
+      - 🇨🇳 深圳2
+      - 🇨🇳 深圳2 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -34,8 +38,10 @@ proxy-groups:
     proxies:
       - 🚀 中国代理
       - 🎯 全球直连
-      - 🇭🇰 香港
-      - sz
+      - 🇨🇳 深圳1
+      - 🇨🇳 深圳1 2
+      - 🇨🇳 深圳2
+      - 🇨🇳 深圳2 2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
