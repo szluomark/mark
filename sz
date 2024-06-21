@@ -4,44 +4,57 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: :9090
+
 proxies:
   - {name: sz1, server: 100.68.83.39, port: 2086, type: vmess, uuid: 98426630-cb41-41d3-b3a4-ad887ef5a43f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: sz2, server: 100.68.83.39, port: 2052, type: vmess, uuid: 125b4701-6eca-4cc0-8789-9b7a7eb01db4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: sz3, server: xu.markwei.us.kg, port: 2086, type: vmess, uuid: 98426630-cb41-41d3-b3a4-ad887ef5a43f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xu.markwei.us.kg}}}
-  - {name: sz2 2, server: xu.markwei.us.kg, port: 2052, type: vmess, uuid: 125b4701-6eca-4cc0-8789-9b7a7eb01db4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xu.markwei.us.kg}}}
+  - {name: sz4, server: xu.markwei.us.kg, port: 2052, type: vmess, uuid: 125b4701-6eca-4cc0-8789-9b7a7eb01db4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xu.markwei.us.kg}}}
+  - {name: sz5, server: youxuan.markwei.us.kg, port: 2086, type: vmess, uuid: 98426630-cb41-41d3-b3a4-ad887ef5a43f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xu.markwei.us.kg}}}
+  - {name: sz6, server: youxuan.markwei.us.kg, port: 2052, type: vmess, uuid: 125b4701-6eca-4cc0-8789-9b7a7eb01db4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xu.markwei.us.kg}}}
 proxy-groups:
   - name: 🚀 中国代理
     type: select
     proxies:
       - DIRECT
+      - 🌟自动测延迟
       - sz1
       - sz2
       - sz3
-      - sz2 2
+      - sz4
+      - sz5
+      - sz6
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
+      - 🌟自动测延迟
       - 🚀 中国代理
-  - name: 🛑 全球拦截
-    type: select
-    proxies:
-      - REJECT
-      - DIRECT
-  - name: 🍃 应用净化
-    type: select
-    proxies:
-      - REJECT
-      - DIRECT
   - name: 🐟 漏网之鱼
     type: select
     proxies:
+      - 🌟自动测延迟
       - 🚀 中国代理
       - 🎯 全球直连
       - sz1
       - sz2
       - sz3
-      - sz2 2
+      - sz4
+      - sz5
+      - sz6
+  - name: 🌟自动测延迟
+    type: url-test
+    proxies:
+      - sz1
+      - sz2
+      - sz3
+      - sz4
+      - sz5
+      - sz6
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 100
+    strategy: latency
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
