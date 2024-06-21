@@ -12,6 +12,7 @@ proxies:
   - {name: sz4, server: xu.markwei.us.kg, port: 2052, type: vmess, uuid: 125b4701-6eca-4cc0-8789-9b7a7eb01db4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xu.markwei.us.kg}}}
   - {name: sz5, server: youxuan.markwei.us.kg, port: 2086, type: vmess, uuid: 98426630-cb41-41d3-b3a4-ad887ef5a43f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xu.markwei.us.kg}}}
   - {name: sz6, server: youxuan.markwei.us.kg, port: 2052, type: vmess, uuid: 125b4701-6eca-4cc0-8789-9b7a7eb01db4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xu.markwei.us.kg}}}
+
 proxy-groups:
   - name: 🚀 中国代理
     type: select
@@ -24,12 +25,26 @@ proxy-groups:
       - sz4
       - sz5
       - sz6
+
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
       - 🌟自动测延迟
       - 🚀 中国代理
+
+  - name: 🛑 全球拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+
+  - name: 🍃 应用净化
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -42,6 +57,7 @@ proxy-groups:
       - sz4
       - sz5
       - sz6
+
   - name: 🌟自动测延迟
     type: url-test
     proxies:
@@ -55,6 +71,16 @@ proxy-groups:
     interval: 300
     tolerance: 100
     strategy: latency
+
+rules:
+  - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
+  - DOMAIN-KEYWORD,tracking,🛑 全球拦截
+  - DOMAIN-KEYWORD,analytics,🛑 全球拦截
+  - DOMAIN-SUFFIX,example.com,🚀 中国代理
+  - DOMAIN-SUFFIX,anotherexample.com,🎯 全球直连
+  - GEOIP,CN,🚀 中国代理
+  - MATCH,🐟 漏网之鱼
+
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
