@@ -5,19 +5,23 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: sz1, server: 100.68.83.39, port: 2086, type: vmess, uuid: dd68e5b4-acb4-40ac-ad03-89b792339e81, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: sz2, server: 100.68.83.39, port: 2052, type: vmess, uuid: bfaabe90-55d2-417d-8937-13a0615ea7c2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: sz3, server: xu.markwei.us.kg, port: 2086, type: vmess, uuid: dd68e5b4-acb4-40ac-ad03-89b792339e81, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xu.markwei.us.kg}}}
-  - {name: sz4, server: xu.markwei.us.kg, port: 2052, type: vmess, uuid: bfaabe90-55d2-417d-8937-13a0615ea7c2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xu.markwei.us.kg}}}
+  - {name: S1, server: 100.68.83.39, port: 13716, type: vmess, uuid: 93f361e7-7bde-4b98-dfa3-c749bd198f7c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: S2, server: 100.68.83.39, port: 19816, type: vmess, uuid: 68746db4-1e3c-4757-c5bb-e2aaaba4744c, alterId: 0, cipher: auto, tls: false}
+  - {name: S3, server: 100.68.83.39, port: 46039, type: vmess, uuid: b6a7dcdf-2ecd-419a-d19d-1b52f7488a3b, alterId: 0, cipher: auto, tls: false}
+  - {name: S4, server: xu.markwei.us.kg, port: 13716, type: vmess, uuid: 93f361e7-7bde-4b98-dfa3-c749bd198f7c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xu.markwei.us.kg}}}
+  - {name: S5, server: xu.markwei.us.kg, port: 19816, type: vmess, uuid: 68746db4-1e3c-4757-c5bb-e2aaaba4744c, alterId: 0, cipher: auto, tls: false}
+  - {name: S6, server: xu.markwei.us.kg, port: 46039, type: vmess, uuid: b6a7dcdf-2ecd-419a-d19d-1b52f7488a3b, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 中国代理
     type: select
     proxies:
       - DIRECT
-      - sz1
-      - sz2
-      - sz3
-      - sz4
+      - S1
+      - S2
+      - S3
+      - S4
+      - S5
+      - S6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -38,10 +42,12 @@ proxy-groups:
     proxies:
       - 🚀 中国代理
       - 🎯 全球直连
-      - sz1
-      - sz2
-      - sz3
-      - sz4
+      - S1
+      - S2
+      - S3
+      - S4
+      - S5
+      - S6
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
