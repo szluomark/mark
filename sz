@@ -5,13 +5,13 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: XG, server: 192.168.6.1, port: 17876, type: vmess, uuid: 581c7e1a-d177-46f1-8650-fd2a17c158ed, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ma}}}
+  - {name: s2, server: 192.168.1.227, port: 38866, type: vmess, uuid: bd5b8d67-4ad0-4dde-8c64-ad86fecf5d81, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
 proxy-groups:
   - name: 🚀 中国代理
     type: select
     proxies:
       - DIRECT
-      - XG
+      - s2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -32,7 +32,7 @@ proxy-groups:
     proxies:
       - 🚀 中国代理
       - 🎯 全球直连
-      - XG
+      - s2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
