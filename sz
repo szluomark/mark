@@ -5,19 +5,13 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: S1, server: 192.168.1.227, port: 13716, type: vmess, uuid: 93f361e7-7bde-4b98-dfa3-c749bd198f7c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: S2, server: 192.168.1.227, port: 19816, type: vmess, uuid: 68746db4-1e3c-4757-c5bb-e2aaaba4744c, alterId: 0, cipher: auto, tls: false}
-  - {name: S3, server: 100.94.219.124, port: 13716, type: vmess, uuid: 93f361e7-7bde-4b98-dfa3-c749bd198f7c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: S4, server: 100.94.219.124, port: 19816, type: vmess, uuid: 68746db4-1e3c-4757-c5bb-e2aaaba4744c, alterId: 0, cipher: auto, tls: false}
+  - {name: s1, server: 192.168.1.227, port: 19666, type: vmess, uuid: 872573ef-6f13-4600-b095-ddfb73f0540f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
 proxy-groups:
   - name: 🚀 中国代理
     type: select
     proxies:
       - DIRECT
-      - S1
-      - S2
-      - S3
-      - S4
+      - s1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -38,10 +32,7 @@ proxy-groups:
     proxies:
       - 🚀 中国代理
       - 🎯 全球直连
-      - S1
-      - S2
-      - S3
-      - S4
+      - s1
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
