@@ -1,1 +1,75 @@
-dmxlc3M6Ly83ZDc4Zjg3Zi1kZTYzLTQ0MTUtOWI1MS0yNWQxN2QxYjdiNTFAMTkyLjE2OC4xLjIyNzoxMjM0P2VuY3J5cHRpb249bm9uZSZzZWN1cml0eT10bHMmc25pPXRscy5tYXJrd2VpLnVzLmtnJnR5cGU9d3MmaG9zdD10bHMubWFya3dlaS51cy5rZyZwYXRoPSUyRiUzRnByb3h5aXAlM0Rwcm94eWlwLnVzLmZ4eGsuZGVkeW4uaW8jJUU0JUJDJTk4JUU3JUE3JTgwJUU3JUJFJThFJUU1JTlCJUJEJTIwJTIwMg0Kdmxlc3M6Ly9lNDljNzk0MC02Mzg2LTRkYWMtZjZiYi00YTg2MDI3NzZkODNAc3Vpdy5zem1hcmsudXMua2c6ODQ0Mz9lbmNyeXB0aW9uPW5vbmUmc2VjdXJpdHk9dGxzJnR5cGU9d3MmaG9zdD1zdWl3LnN6bWFyay51cy5rZyZwYXRoPSUyRm1hI3ZsZXNzLTU0MjkzDQp2bGVzczovLzBhYjgyZGQ3LTE0NmUtNDQwYy05ODA0LTFmYmJkNTUzYjllZkAxOTIuMTY4LjEuMjI3OjEyMzQ/ZW5jcnlwdGlvbj1ub25lJnNlY3VyaXR5PXRscyZzbmk9aGlkZC5zem1hcmsudXMua2cmdHlwZT13cyZob3N0PWhpZGQuc3ptYXJrLnVzLmtnJnBhdGg9JTJGWklkNXY4T3Q3Z2RwYVV1R1hGWlFsUCMlRTYlQjclQjElRTUlOUMlQjMlRTQlQkMlOTglRTklODAlODlpcCUyMEhHDQp2bGVzczovLzBhYjgyZGQ3LTE0NmUtNDQwYy05ODA0LTFmYmJkNTUzYjllZkAxNzIuNjcuMjUuMTE2OjQ0Mz9lbmNyeXB0aW9uPW5vbmUmc2VjdXJpdHk9dGxzJnNuaT1oaWRkLnN6bWFyay51cy5rZyZ0eXBlPXdzJmhvc3Q9aGlkZC5zem1hcmsudXMua2cmcGF0aD0lMkZaSWQ1djhPdDdnZHBhVXVHWEZaUWxQIyVFNiVCNyVCMSVFNSU5QyVCMyVFNCVCQyU5OCVFOSU4MCU4OSUyMCUyMElQMg0Kdmxlc3M6Ly83ZDc4Zjg3Zi1kZTYzLTQ0MTUtOWI1MS0yNWQxN2QxYjdiNTFAMTcyLjY3LjI1LjExNjo0NDM/ZW5jcnlwdGlvbj1ub25lJnNlY3VyaXR5PXRscyZzbmk9dGxzLm1hcmt3ZWkudXMua2cmdHlwZT13cyZob3N0PXRscy5tYXJrd2VpLnVzLmtnJnBhdGg9JTJGJTNGcHJveHlpcCUzRHByb3h5aXAudXMuZnh4ay5kZWR5bi5pbyMlRTQlQkMlOTglRTclQTclODAlRTclQkUlOEUlRTUlOUIlQkQlMjAxDQo=
+proxies:
+  - name: 优秀美国  2
+    type: vmess
+    server: 192.168.1.227
+    port: 1234
+    uuid: 7d78f87f-de63-4415-9b51-25d17d1b7b51
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?proxyip=proxyip.us.fxxk.dedyn.io
+      headers:
+        Host: tls.markwei.us.kg
+
+  - name: vless-54293
+    type: vmess
+    server: suiw.szmark.us.kg
+    port: 8443
+    uuid: e49c7940-6386-4dac-f6bb-4a8602776d83
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /ma
+      headers:
+        Host: suiw.szmark.us.kg
+
+  - name: 深圳优选ip HG
+    type: vmess
+    server: 192.168.1.227
+    port: 1234
+    uuid: 0ab82dd7-146e-440c-9804-1fbbd553b9ef
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /ZId5v8Ot7gdpaUuGXFZQlP
+      headers:
+        Host: hidd.szmark.us.kg
+
+  - name: 深圳优选  IP2
+    type: vmess
+    server: 172.67.25.116
+    port: 443
+    uuid: 0ab82dd7-146e-440c-9804-1fbbd553b9ef
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /ZId5v8Ot7gdpaUuGXFZQlP
+      headers:
+        Host: hidd.szmark.us.kg
+
+  - name: 优秀美国 1
+    type: vmess
+    server: 172.67.25.116
+    port: 443
+    uuid: 7d78f87f-de63-4415-9b51-25d17d1b7b51
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?proxyip=proxyip.us.fxxk.dedyn.io
+      headers:
+        Host: tls.markwei.us.kg
