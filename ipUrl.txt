@@ -1,1 +1,1 @@
-https://raw.githubusercontent.com/szluomark/mark/refs/heads/main/ip.csv
+https://raw.githubusercontent.com/szluomark/mark/refs/heads/main/IP.txt
