@@ -1,42 +1,4 @@
 {
-  "log": {
-    "level": "info",
-    "timestamp": true
-  },
-  "dns": {
-    "servers": [
-      {
-        "tag": "local",
-        "address": "223.5.5.5",
-        "address_strategy": "prefer_ipv4",
-        "detour": "direct"
-      },
-      {
-        "tag": "remote",
-        "address": "8.8.8.8",
-        "address_strategy": "prefer_ipv4",
-        "detour": "proxy"
-      }
-    ]
-  },
-  "inbounds": [
-    {
-      "type": "socks",
-      "tag": "socks-in",
-      "listen": "127.0.0.1",
-      "listen_port": 1080,
-      "sniff": true,
-      "sniff_override_destination": true
-    },
-    {
-      "type": "http",
-      "tag": "http-in",
-      "listen": "127.0.0.1",
-      "listen_port": 8080,
-      "sniff": true,
-      "sniff_override_destination": true
-    }
-  ],
   "outbounds": [
     {
       "tag": "香港",
@@ -45,6 +7,7 @@
       "server_port": 1234,
       "uuid": "ed1d42f8-c3a6-4e47-a345-77a1f388ec37",
       "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
         "server_name": "nhno.516226.xyz",
@@ -52,10 +15,10 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/9Hzdr3HDYsUmVW",
         "headers": {
           "Host": "nhno.516226.xyz"
-        }
+        },
+        "path": "/9Hzdr3HDYsUmVW"
       }
     },
     {
@@ -75,16 +38,16 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
         "headers": {
           "Host": "us.516226.xyz"
         },
+        "path": "/",
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
       }
     },
     {
-      "tag": "SJC-1",
+      "tag": "SJC",
       "type": "vless",
       "server": "104.16.14.132",
       "server_port": 443,
@@ -100,16 +63,16 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
         "headers": {
           "Host": "us.516226.xyz"
         },
+        "path": "/",
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
       }
     },
     {
-      "tag": "SJC-2",
+      "tag": "SJC",
       "type": "vless",
       "server": "172.64.155.12",
       "server_port": 443,
@@ -125,16 +88,16 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
         "headers": {
           "Host": "us.516226.xyz"
         },
+        "path": "/",
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
       }
     },
     {
-      "tag": "SJC-3",
+      "tag": "SJC",
       "type": "vless",
       "server": "104.18.232.68",
       "server_port": 443,
@@ -150,16 +113,16 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
         "headers": {
           "Host": "us.516226.xyz"
         },
+        "path": "/",
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
       }
     },
     {
-      "tag": "SJC-4",
+      "tag": "SJC",
       "type": "vless",
       "server": "104.19.10.64",
       "server_port": 443,
@@ -175,16 +138,16 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
         "headers": {
           "Host": "us.516226.xyz"
         },
+        "path": "/",
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
       }
     },
     {
-      "tag": "SJC-5",
+      "tag": "SJC",
       "type": "vless",
       "server": "162.159.48.154",
       "server_port": 443,
@@ -200,16 +163,16 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
         "headers": {
           "Host": "us.516226.xyz"
         },
+        "path": "/",
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
       }
     },
     {
-      "tag": "SJC-6",
+      "tag": "SJC",
       "type": "vless",
       "server": "172.64.93.2",
       "server_port": 443,
@@ -225,16 +188,16 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
         "headers": {
           "Host": "us.516226.xyz"
         },
+        "path": "/",
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
       }
     },
     {
-      "tag": "SJC-7",
+      "tag": "SJC",
       "type": "vless",
       "server": "104.19.85.77",
       "server_port": 443,
@@ -250,16 +213,16 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
         "headers": {
           "Host": "us.516226.xyz"
         },
+        "path": "/",
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
       }
     },
     {
-      "tag": "SJC-8",
+      "tag": "SJC",
       "type": "vless",
       "server": "104.18.230.142",
       "server_port": 443,
@@ -275,16 +238,16 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
         "headers": {
           "Host": "us.516226.xyz"
         },
+        "path": "/",
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
       }
     },
     {
-      "tag": "SJC-9",
+      "tag": "SJC",
       "type": "vless",
       "server": "172.64.91.94",
       "server_port": 443,
@@ -300,61 +263,13 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
         "headers": {
           "Host": "us.516226.xyz"
         },
+        "path": "/",
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
       }
-    },
-    {
-      "tag": "direct",
-      "type": "direct"
-    },
-    {
-      "tag": "block",
-      "type": "block"
-    },
-    {
-      "type": "selector",
-      "tag": "proxy",
-      "default": "香港",
-      "outbounds": [
-        "香港",
-        "NRT",
-        "SJC-1",
-        "SJC-2",
-        "SJC-3",
-        "SJC-4",
-        "SJC-5",
-        "SJC-6",
-        "SJC-7",
-        "SJC-8",
-        "SJC-9"
-      ],
-      "health_check": {
-        "enable": true,
-        "interval": "60s",
-        "timeout": "3s"
-      }
     }
-  ],
-  "route": {
-    "geoip": "/usr/share/sing-box/geoip.db",
-    "geosite": "/usr/share/sing-box/geosite.db",
-    "rules": [
-      {
-        "geosite": "cn",
-        "outbound": "direct"
-      },
-      {
-        "geoip": "cn",
-        "outbound": "direct"
-      },
-      {
-        "outbound": "proxy"
-      }
-    ]
-  }
+  ]
 }
