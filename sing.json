@@ -1,273 +1,347 @@
-[
-  {
-    "tag": "香港",
-    "type": "vmess",
-    "server": "192.168.1.227",
-    "server_port": 1234,
-    "uuid": "ed1d42f8-c3a6-4e47-a345-77a1f388ec37",
-    "security": "auto",
-    "alter_id": 0,
-    "tls": {
-      "enabled": true,
-      "server_name": "nhno.516226.xyz",
-      "insecure": false
-    },
-    "transport": {
-      "type": "ws",
-      "headers": {
-        "Host": "nhno.516226.xyz"
-      },
-      "path": "/9Hzdr3HDYsUmVW"
-    }
+{
+  "log": {
+    "level": "info",
+    "output": "console"
   },
-  {
-    "tag": "NRT",
-    "type": "vless",
-    "server": "172.64.229.226",
-    "server_port": 443,
-    "uuid": "fbbae82c-c0cd-48fc-9404-fc688e9227d0",
-    "tls": {
-      "enabled": true,
-      "server_name": "us.516226.xyz",
-      "insecure": false,
-      "utls": {
+  "inbounds": [
+    {
+      "type": "socks",
+      "tag": "socks-in",
+      "listen": "0.0.0.0",
+      "listen_port": 1080,
+      "sniff": true,
+      "sniff_override_destination": true
+    },
+    {
+      "type": "http",
+      "tag": "http-in",
+      "listen": "0.0.0.0",
+      "listen_port": 2080,
+      "sniff": true,
+      "sniff_override_destination": true
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "vmess",
+      "tag": "香港",
+      "server": "192.168.1.227",
+      "server_port": 1234,
+      "uuid": "ed1d42f8-c3a6-4e47-a345-77a1f388ec37",
+      "security": "auto",
+      "tls": {
         "enabled": true,
-        "fingerprint": "randomized"
+        "server_name": "nhno.516226.xyz",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/9Hzdr3HDYsUmVW",
+        "headers": {
+          "Host": "nhno.516226.xyz"
+        }
       }
     },
-    "transport": {
-      "type": "ws",
-      "headers": {
-        "Host": "us.516226.xyz"
-      },
-      "path": "/",
-      "early_data_header_name": "Sec-WebSocket-Protocol",
-      "max_early_data": 2560
-    }
-  },
-  {
-    "tag": "SJC",
-    "type": "vless",
-    "server": "104.16.14.132",
-    "server_port": 443,
-    "uuid": "fbbae82c-c0cd-48fc-9404-fc688e9227d0",
-    "tls": {
-      "enabled": true,
-      "server_name": "us.516226.xyz",
-      "insecure": false,
-      "utls": {
+    {
+      "type": "vless",
+      "tag": "NRT",
+      "server": "172.64.229.226",
+      "server_port": 443,
+      "uuid": "fbbae82c-c0cd-48fc-9404-fc688e9227d0",
+      "tls": {
         "enabled": true,
-        "fingerprint": "randomized"
+        "server_name": "us.516226.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "early_data": {
+          "header_name": "Sec-WebSocket-Protocol",
+          "max_size": 2560
+        },
+        "headers": {
+          "Host": "us.516226.xyz"
+        }
       }
     },
-    "transport": {
-      "type": "ws",
-      "headers": {
-        "Host": "us.516226.xyz"
-      },
-      "path": "/",
-      "early_data_header_name": "Sec-WebSocket-Protocol",
-      "max_early_data": 2560
-    }
-  },
-  {
-    "tag": "SJC",
-    "type": "vless",
-    "server": "172.64.155.12",
-    "server_port": 443,
-    "uuid": "fbbae82c-c0cd-48fc-9404-fc688e9227d0",
-    "tls": {
-      "enabled": true,
-      "server_name": "us.516226.xyz",
-      "insecure": false,
-      "utls": {
+    {
+      "type": "vless",
+      "tag": "SJC-1",
+      "server": "104.16.14.132",
+      "server_port": 443,
+      "uuid": "fbbae82c-c0cd-48fc-9404-fc688e9227d0",
+      "tls": {
         "enabled": true,
-        "fingerprint": "randomized"
+        "server_name": "us.516226.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "early_data": {
+          "header_name": "Sec-WebSocket-Protocol",
+          "max_size": 2560
+        },
+        "headers": {
+          "Host": "us.516226.xyz"
+        }
       }
     },
-    "transport": {
-      "type": "ws",
-      "headers": {
-        "Host": "us.516226.xyz"
-      },
-      "path": "/",
-      "early_data_header_name": "Sec-WebSocket-Protocol",
-      "max_early_data": 2560
-    }
-  },
-  {
-    "tag": "SJC",
-    "type": "vless",
-    "server": "104.18.232.68",
-    "server_port": 443,
-    "uuid": "fbbae82c-c0cd-48fc-9404-fc688e9227d0",
-    "tls": {
-      "enabled": true,
-      "server_name": "us.516226.xyz",
-      "insecure": false,
-      "utls": {
+    {
+      "type": "vless",
+      "tag": "SJC-2",
+      "server": "172.64.155.12",
+      "server_port": 443,
+      "uuid": "fbbae82c-c0cd-48fc-9404-fc688e9227d0",
+      "tls": {
         "enabled": true,
-        "fingerprint": "randomized"
+        "server_name": "us.516226.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "early_data": {
+          "header_name": "Sec-WebSocket-Protocol",
+          "max_size": 2560
+        },
+        "headers": {
+          "Host": "us.516226.xyz"
+        }
       }
     },
-    "transport": {
-      "type": "ws",
-      "headers": {
-        "Host": "us.516226.xyz"
-      },
-      "path": "/",
-      "early_data_header_name": "Sec-WebSocket-Protocol",
-      "max_early_data": 2560
-    }
-  },
-  {
-    "tag": "SJC",
-    "type": "vless",
-    "server": "104.19.10.64",
-    "server_port": 443,
-    "uuid": "fbbae82c-c0cd-48fc-9404-fc688e9227d0",
-    "tls": {
-      "enabled": true,
-      "server_name": "us.516226.xyz",
-      "insecure": false,
-      "utls": {
+    {
+      "type": "vless",
+      "tag": "SJC-3",
+      "server": "104.18.232.68",
+      "server_port": 443,
+      "uuid": "fbbae82c-c0cd-48fc-9404-fc688e9227d0",
+      "tls": {
         "enabled": true,
-        "fingerprint": "randomized"
+        "server_name": "us.516226.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "early_data": {
+          "header_name": "Sec-WebSocket-Protocol",
+          "max_size": 2560
+        },
+        "headers": {
+          "Host": "us.516226.xyz"
+        }
       }
     },
-    "transport": {
-      "type": "ws",
-      "headers": {
-        "Host": "us.516226.xyz"
-      },
-      "path": "/",
-      "early_data_header_name": "Sec-WebSocket-Protocol",
-      "max_early_data": 2560
-    }
-  },
-  {
-    "tag": "SJC",
-    "type": "vless",
-    "server": "162.159.48.154",
-    "server_port": 443,
-    "uuid": "fbbae82c-c0cd-48fc-9404-fc688e9227d0",
-    "tls": {
-      "enabled": true,
-      "server_name": "us.516226.xyz",
-      "insecure": false,
-      "utls": {
+    {
+      "type": "vless",
+      "tag": "SJC-4",
+      "server": "104.19.10.64",
+      "server_port": 443,
+      "uuid": "fbbae82c-c0cd-48fc-9404-fc688e9227d0",
+      "tls": {
         "enabled": true,
-        "fingerprint": "randomized"
+        "server_name": "us.516226.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "early_data": {
+          "header_name": "Sec-WebSocket-Protocol",
+          "max_size": 2560
+        },
+        "headers": {
+          "Host": "us.516226.xyz"
+        }
       }
     },
-    "transport": {
-      "type": "ws",
-      "headers": {
-        "Host": "us.516226.xyz"
-      },
-      "path": "/",
-      "early_data_header_name": "Sec-WebSocket-Protocol",
-      "max_early_data": 2560
-    }
-  },
-  {
-    "tag": "SJC",
-    "type": "vless",
-    "server": "172.64.93.2",
-    "server_port": 443,
-    "uuid": "fbbae82c-c0cd-48fc-9404-fc688e9227d0",
-    "tls": {
-      "enabled": true,
-      "server_name": "us.516226.xyz",
-      "insecure": false,
-      "utls": {
+    {
+      "type": "vless",
+      "tag": "SJC-5",
+      "server": "162.159.48.154",
+      "server_port": 443,
+      "uuid": "fbbae82c-c0cd-48fc-9404-fc688e9227d0",
+      "tls": {
         "enabled": true,
-        "fingerprint": "randomized"
+        "server_name": "us.516226.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "early_data": {
+          "header_name": "Sec-WebSocket-Protocol",
+          "max_size": 2560
+        },
+        "headers": {
+          "Host": "us.516226.xyz"
+        }
       }
     },
-    "transport": {
-      "type": "ws",
-      "headers": {
-        "Host": "us.516226.xyz"
-      },
-      "path": "/",
-      "early_data_header_name": "Sec-WebSocket-Protocol",
-      "max_early_data": 2560
-    }
-  },
-  {
-    "tag": "SJC",
-    "type": "vless",
-    "server": "104.19.85.77",
-    "server_port": 443,
-    "uuid": "fbbae82c-c0cd-48fc-9404-fc688e9227d0",
-    "tls": {
-      "enabled": true,
-      "server_name": "us.516226.xyz",
-      "insecure": false,
-      "utls": {
+    {
+      "type": "vless",
+      "tag": "SJC-6",
+      "server": "172.64.93.2",
+      "server_port": 443,
+      "uuid": "fbbae82c-c0cd-48fc-9404-fc688e9227d0",
+      "tls": {
         "enabled": true,
-        "fingerprint": "randomized"
+        "server_name": "us.516226.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "early_data": {
+          "header_name": "Sec-WebSocket-Protocol",
+          "max_size": 2560
+        },
+        "headers": {
+          "Host": "us.516226.xyz"
+        }
       }
     },
-    "transport": {
-      "type": "ws",
-      "headers": {
-        "Host": "us.516226.xyz"
-      },
-      "path": "/",
-      "early_data_header_name": "Sec-WebSocket-Protocol",
-      "max_early_data": 2560
-    }
-  },
-  {
-    "tag": "SJC",
-    "type": "vless",
-    "server": "104.18.230.142",
-    "server_port": 443,
-    "uuid": "fbbae82c-c0cd-48fc-9404-fc688e9227d0",
-    "tls": {
-      "enabled": true,
-      "server_name": "us.516226.xyz",
-      "insecure": false,
-      "utls": {
+    {
+      "type": "vless",
+      "tag": "SJC-7",
+      "server": "104.19.85.77",
+      "server_port": 443,
+      "uuid": "fbbae82c-c0cd-48fc-9404-fc688e9227d0",
+      "tls": {
         "enabled": true,
-        "fingerprint": "randomized"
+        "server_name": "us.516226.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "early_data": {
+          "header_name": "Sec-WebSocket-Protocol",
+          "max_size": 2560
+        },
+        "headers": {
+          "Host": "us.516226.xyz"
+        }
       }
     },
-    "transport": {
-      "type": "ws",
-      "headers": {
-        "Host": "us.516226.xyz"
-      },
-      "path": "/",
-      "early_data_header_name": "Sec-WebSocket-Protocol",
-      "max_early_data": 2560
-    }
-  },
-  {
-    "tag": "SJC",
-    "type": "vless",
-    "server": "172.64.91.94",
-    "server_port": 443,
-    "uuid": "fbbae82c-c0cd-48fc-9404-fc688e9227d0",
-    "tls": {
-      "enabled": true,
-      "server_name": "us.516226.xyz",
-      "insecure": false,
-      "utls": {
+    {
+      "type": "vless",
+      "tag": "SJC-8",
+      "server": "104.18.230.142",
+      "server_port": 443,
+      "uuid": "fbbae82c-c0cd-48fc-9404-fc688e9227d0",
+      "tls": {
         "enabled": true,
-        "fingerprint": "randomized"
+        "server_name": "us.516226.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "early_data": {
+          "header_name": "Sec-WebSocket-Protocol",
+          "max_size": 2560
+        },
+        "headers": {
+          "Host": "us.516226.xyz"
+        }
       }
     },
-    "transport": {
-      "type": "ws",
-      "headers": {
-        "Host": "us.516226.xyz"
+    {
+      "type": "vless",
+      "tag": "SJC-9",
+      "server": "172.64.91.94",
+      "server_port": 443,
+      "uuid": "fbbae82c-c0cd-48fc-9404-fc688e9227d0",
+      "tls": {
+        "enabled": true,
+        "server_name": "us.516226.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
       },
-      "path": "/",
-      "early_data_header_name": "Sec-WebSocket-Protocol",
-      "max_early_data": 2560
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "early_data": {
+          "header_name": "Sec-WebSocket-Protocol",
+          "max_size": 2560
+        },
+        "headers": {
+          "Host": "us.516226.xyz"
+        }
+      }
     }
+  ],
+  "route": {
+    "auto_detect_interface": true,
+    "rules": [
+      {
+        "geosite": "cn",
+        "outbound": "direct"
+      },
+      {
+        "geoip": "cn",
+        "outbound": "direct"
+      },
+      {
+        "outbound": "香港"
+      }
+    ]
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "google",
+        "address": "8.8.8.8",
+        "detour": "香港"
+      },
+      {
+        "tag": "doh",
+        "address": "https://dns.google/dns-query",
+        "detour": "香港"
+      },
+      "localhost"
+    ]
   }
-]
+}
